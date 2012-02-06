@@ -1,5 +1,6 @@
 [
     {
+        "broken": false,
         "category": "server",
         "cvar": "allow_spectators",
         "default": "1",
@@ -14,6 +15,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "ati_npatch",
         "default": "1",
@@ -33,6 +35,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "ati_subdiv",
         "default": "2",
@@ -52,6 +55,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "bgmbuffer",
         "default": "4096",
@@ -66,6 +70,7 @@
         }
     },
     {
+        "broken": false,
         "category": "sound",
         "cvar": "bgmvolume",
         "default": "1",
@@ -80,6 +85,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "bottomcolor",
         "default": "0",
@@ -99,6 +105,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "brightness",
         "default": "1",
@@ -118,6 +125,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "cam_command",
         "default": "0",
@@ -132,6 +140,7 @@
         }
     },
     {
+        "broken": true,
         "category": "cheat",
         "cvar": "cam_contain",
         "default": "0",
@@ -146,6 +155,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "cam_idealdist",
         "default": "64",
@@ -160,6 +170,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "cam_idealpitch",
         "default": "0",
@@ -174,6 +185,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "cam_idealyaw",
         "default": "90",
@@ -188,6 +200,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "cam_snapto",
         "default": "0",
@@ -202,6 +215,7 @@
         }
     },
     {
+        "broken": false,
         "category": "camera",
         "cvar": "chase_active",
         "default": "0",
@@ -216,6 +230,7 @@
         }
     },
     {
+        "broken": false,
         "category": "camera",
         "cvar": "chase_back",
         "default": "100",
@@ -230,6 +245,7 @@
         }
     },
     {
+        "broken": false,
         "category": "camera",
         "cvar": "chase_right",
         "default": "0",
@@ -244,6 +260,7 @@
         }
     },
     {
+        "broken": false,
         "category": "camera",
         "cvar": "chase_up",
         "default": "16",
@@ -258,6 +275,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "clientport",
         "default": "27005",
@@ -272,6 +290,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "clockwindow",
         "default": "0.5",
@@ -286,6 +305,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "cl_allowdownload",
         "default": "1",
@@ -300,6 +320,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "cl_allowupload",
         "default": "1",
@@ -314,6 +335,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_anglespeedkey",
         "default": "0.67",
@@ -328,6 +350,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_backspeed",
         "default": "400",
@@ -342,6 +365,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_bob",
         "default": "0.01",
@@ -361,6 +385,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_bobcycle",
         "default": "0.8",
@@ -380,6 +405,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_bobup",
         "default": "0.5",
@@ -399,6 +425,7 @@
         }
     },
     {
+        "broken": false,
         "category": "camera",
         "cvar": "cl_chasedist",
         "default": "112",
@@ -413,6 +440,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_clockreset",
         "default": "0.1",
@@ -427,6 +455,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_cmdbackup",
         "default": "2",
@@ -441,6 +470,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_cmdrate",
         "default": "30",
@@ -455,6 +485,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_corpsestay",
         "default": "600",
@@ -474,6 +505,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_crosshair_color",
         "default": "50 250 50",
@@ -488,6 +520,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_crosshair_size",
         "default": "0/auto",
@@ -502,6 +535,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_crosshair_translucent",
         "default": "",
@@ -516,6 +550,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_dlmax",
         "default": "128",
@@ -530,6 +565,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "cl_download_ingame",
         "default": "1",
@@ -544,6 +580,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_dynamiccrosshair",
         "default": "1",
@@ -558,6 +595,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_fixtimerate",
         "default": "7.5",
@@ -572,6 +610,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_fog_b",
         "default": "0",
@@ -591,6 +630,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_fog_density",
         "default": "0",
@@ -610,6 +650,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_fog_g",
         "default": "0",
@@ -629,6 +670,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_fog_r",
         "default": "0",
@@ -648,6 +690,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_forwardspeed",
         "default": "400",
@@ -662,6 +705,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_gaitestimation",
         "default": "1",
@@ -676,6 +720,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "cl_gg",
         "default": "0",
@@ -690,6 +735,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_himodels",
         "default": "0",
@@ -709,6 +755,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_idealpitchscale",
         "default": "0.8",
@@ -728,6 +775,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_lc",
         "default": "1",
@@ -742,6 +790,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_logocolor",
         "default": "#Valve_Orange",
@@ -756,6 +805,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_logofile",
         "default": "lambda",
@@ -770,6 +820,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_lw",
         "default": "1",
@@ -784,6 +835,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_minmodels",
         "default": "0",
@@ -803,6 +855,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_movespeedkey",
         "default": "0.52",
@@ -817,6 +870,7 @@
         }
     },
     {
+        "broken": false,
         "category": "developer",
         "cvar": "cl_needinstanced",
         "default": "0",
@@ -831,6 +885,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_nosmooth",
         "default": "0",
@@ -845,6 +900,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_observercrosshair",
         "default": "1",
@@ -859,6 +915,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_pitchdown",
         "default": "89",
@@ -873,6 +930,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_pitchspeed",
         "default": "225",
@@ -887,6 +945,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_pitchup",
         "default": "89",
@@ -901,6 +960,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_pmanstats",
         "default": "0",
@@ -915,6 +975,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_radartype",
         "default": "0",
@@ -929,6 +990,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_rate",
         "default": "9999",
@@ -943,6 +1005,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "cl_resend",
         "default": "6",
@@ -957,6 +1020,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_righthand",
         "default": "1",
@@ -971,6 +1035,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_shadows",
         "default": "1",
@@ -990,6 +1055,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_showerror",
         "default": "0",
@@ -1004,6 +1070,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_showevents",
         "default": "0",
@@ -1018,6 +1085,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_showfps",
         "default": "0",
@@ -1032,6 +1100,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_showmessages",
         "default": "0",
@@ -1046,6 +1115,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_shownet",
         "default": "0",
@@ -1060,6 +1130,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_sidespeed",
         "default": "400",
@@ -1074,6 +1145,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "cl_slist",
         "default": "10",
@@ -1088,6 +1160,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_smoothtime",
         "default": "0.1",
@@ -1102,6 +1175,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_solid_players",
         "default": "1",
@@ -1116,6 +1190,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "cl_timeout",
         "default": "300",
@@ -1130,6 +1205,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_updaterate",
         "default": "20",
@@ -1144,6 +1220,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_upspeed",
         "default": "320",
@@ -1158,6 +1235,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_vsmoothing",
         "default": "0.05",
@@ -1172,6 +1250,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "cl_waterdist",
         "default": "4",
@@ -1186,6 +1265,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "cl_weaponlistfix",
         "default": "0",
@@ -1200,6 +1280,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "cl_weather",
         "default": "1",
@@ -1219,6 +1300,7 @@
         }
     },
     {
+        "broken": false,
         "category": "movement",
         "cvar": "cl_yawspeed",
         "default": "210",
@@ -1233,6 +1315,7 @@
         }
     },
     {
+        "broken": true,
         "category": "\u00a0",
         "cvar": "com_filewarning",
         "default": "0",
@@ -1247,6 +1330,7 @@
         }
     },
     {
+        "broken": true,
         "category": "interface",
         "cvar": "console",
         "default": "1",
@@ -1261,6 +1345,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "con_color",
         "default": "255 180 30",
@@ -1275,6 +1360,7 @@
         }
     },
     {
+        "broken": true,
         "category": "\u00a0",
         "cvar": "con_fastmode",
         "default": "",
@@ -1289,6 +1375,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "con_notifytime",
         "default": "4",
@@ -1303,6 +1390,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "coop",
         "default": "0",
@@ -1317,6 +1405,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "crosshair",
         "default": "1",
@@ -1336,6 +1425,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "c_maxdistance",
         "default": "200",
@@ -1350,6 +1440,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "c_maxpitch",
         "default": "90",
@@ -1364,6 +1455,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "c_maxyaw",
         "default": "135",
@@ -1378,6 +1470,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "c_mindistance",
         "default": "30",
@@ -1392,6 +1485,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "c_minyaw",
         "default": "-135",
@@ -1406,6 +1500,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "deathmatch",
         "default": "0",
@@ -1420,6 +1515,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "decalfrequency",
         "default": "30",
@@ -1434,6 +1530,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "default_fov",
         "default": "90",
@@ -1448,6 +1545,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "developer",
         "default": "0",
@@ -1462,6 +1560,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "dev_overview",
         "default": "0",
@@ -1476,6 +1575,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "direct",
         "default": "0.9",
@@ -1495,6 +1595,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "displaysoundlist",
         "default": "0",
@@ -1509,6 +1610,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "d_mipcap",
         "default": "0",
@@ -1528,6 +1630,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "d_mipscale",
         "default": "1",
@@ -1547,6 +1650,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "d_spriteskip",
         "default": "0",
@@ -1566,6 +1670,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "edgefriction",
         "default": "2",
@@ -1580,6 +1685,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "ex_interp",
         "default": "0.1",
@@ -1594,6 +1700,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "fakelag",
         "default": "0",
@@ -1608,6 +1715,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "fakeloss",
         "default": "0",
@@ -1622,6 +1730,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "fastsprites",
         "default": "1",
@@ -1641,6 +1750,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "fps_max",
         "default": "72",
@@ -1660,6 +1770,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "fps_modem",
         "default": "0",
@@ -1679,6 +1790,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "fs_lazy_precache",
         "default": "0",
@@ -1693,6 +1805,7 @@
         }
     },
     {
+        "broken": false,
         "category": "developer",
         "cvar": "fs_perf_warnings",
         "default": "0",
@@ -1707,6 +1820,7 @@
         }
     },
     {
+        "broken": false,
         "category": "developer",
         "cvar": "fs_precache_timings",
         "default": "0",
@@ -1721,6 +1835,7 @@
         }
     },
     {
+        "broken": false,
         "category": "developer",
         "cvar": "fs_startup_timings",
         "default": "0",
@@ -1735,6 +1850,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gamma",
         "default": "2.5",
@@ -1754,6 +1870,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_affinemodels",
         "default": "0",
@@ -1773,6 +1890,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_alphamin",
         "default": "0.25",
@@ -1792,6 +1910,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_clear",
         "default": "0",
@@ -1811,6 +1930,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_cull",
         "default": "1",
@@ -1830,6 +1950,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_d3dflip",
         "default": "0",
@@ -1849,6 +1970,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_dither",
         "default": "1",
@@ -1868,6 +1990,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_flipmatrix",
         "default": "0",
@@ -1887,6 +2010,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_fog",
         "default": "1",
@@ -1906,6 +2030,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_keeptjunctions",
         "default": "1",
@@ -1925,6 +2050,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_lightholes",
         "default": "1",
@@ -1944,6 +2070,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_max_size",
         "default": "512",
@@ -1963,6 +2090,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_monolights",
         "default": "0",
@@ -1982,6 +2110,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "gl_nobind",
         "default": "0",
@@ -2001,6 +2130,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "gl_nocolors",
         "default": "0",
@@ -2020,6 +2150,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_overbright",
         "default": "0",
@@ -2039,6 +2170,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_palette_tex",
         "default": "1",
@@ -2058,6 +2190,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_picmip",
         "default": "0",
@@ -2077,6 +2210,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "gl_playermip",
         "default": "0",
@@ -2096,6 +2230,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_polyoffset",
         "default": "0.1/4",
@@ -2115,6 +2250,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "gl_reporttjunctions",
         "default": "0",
@@ -2134,6 +2270,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_round_down",
         "default": "3",
@@ -2153,6 +2290,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_spriteblend",
         "default": "1",
@@ -2172,6 +2310,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_wateramp",
         "default": "0.3",
@@ -2191,6 +2330,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_wireframe",
         "default": "0",
@@ -2210,6 +2350,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_zmax",
         "default": "4096",
@@ -2229,6 +2370,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "gl_ztrick",
         "default": "0",
@@ -2248,6 +2390,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "graphheight",
         "default": "64",
@@ -2262,6 +2405,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "hisound",
         "default": "1",
@@ -2276,6 +2420,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "HostMap",
         "default": "",
@@ -2290,6 +2435,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "hostname",
         "default": "",
@@ -2304,6 +2450,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "hostport",
         "default": "0",
@@ -2318,6 +2465,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "host_framerate",
         "default": "0",
@@ -2332,6 +2480,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "host_killtime",
         "default": "0",
@@ -2346,6 +2495,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "host_profile",
         "default": "0",
@@ -2360,6 +2510,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "host_speeds",
         "default": "0",
@@ -2374,6 +2525,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "hpk_maxsize",
         "default": "1.5",
@@ -2388,6 +2540,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_capturemouse",
         "default": "1",
@@ -2402,6 +2555,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_centerid",
         "default": "0",
@@ -2416,6 +2570,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_classautokill",
         "default": "1",
@@ -2430,6 +2585,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_deathnotice_time",
         "default": "6",
@@ -2444,6 +2600,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_draw",
         "default": "1",
@@ -2458,6 +2615,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_drawhistory_time",
         "default": "5",
@@ -2472,6 +2630,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_fastswitch",
         "default": "0",
@@ -2486,6 +2645,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_saytext",
         "default": "1",
@@ -2500,6 +2660,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_saytext_internal",
         "default": "1",
@@ -2514,6 +2675,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_saytext_time",
         "default": "5",
@@ -2528,6 +2690,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "hud_takesshots",
         "default": "0",
@@ -2542,6 +2705,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "humans_join_team",
         "default": "any",
@@ -2556,6 +2720,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "ip",
         "default": "localhost",
@@ -2570,6 +2735,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyadvanced",
         "default": "0",
@@ -2584,6 +2750,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyadvaxisr",
         "default": "0",
@@ -2598,6 +2765,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyadvaxisu",
         "default": "0",
@@ -2612,6 +2780,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyadvaxisv",
         "default": "0",
@@ -2626,6 +2795,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyadvaxisx",
         "default": "0",
@@ -2640,6 +2810,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyadvaxisy",
         "default": "0",
@@ -2654,6 +2825,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyadvaxisz",
         "default": "0",
@@ -2668,6 +2840,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyforwardsensitivity",
         "default": "-1.0",
@@ -2682,6 +2855,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyforwardthreshold",
         "default": "0.15",
@@ -2696,6 +2870,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joypitchsensitivity",
         "default": "1.0",
@@ -2710,6 +2885,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joypitchthreshold",
         "default": "0.15",
@@ -2724,6 +2900,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joysidesensitivity",
         "default": "-1.0",
@@ -2738,6 +2915,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joysidethreshold",
         "default": "0.15",
@@ -2752,6 +2930,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joystick",
         "default": "0",
@@ -2766,6 +2945,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joywwhack1",
         "default": "0",
@@ -2780,6 +2960,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joywwhack2",
         "default": "0",
@@ -2794,6 +2975,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyyawsensitivity",
         "default": "-1",
@@ -2808,6 +2990,7 @@
         }
     },
     {
+        "broken": false,
         "category": "joystick",
         "cvar": "joyyawthreshold",
         "default": "0.15",
@@ -2822,6 +3005,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "lambert",
         "default": "1.5",
@@ -2841,6 +3025,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "lightgamma",
         "default": "2.5",
@@ -2860,6 +3045,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "loadas8bit",
         "default": "0",
@@ -2874,6 +3060,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "logsdir",
         "default": "logs",
@@ -2888,6 +3075,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "lookspring",
         "default": "0",
@@ -2902,6 +3090,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "lookstrafe",
         "default": "0",
@@ -2916,6 +3105,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "lservercfgfile",
         "default": "listenserver.cfg",
@@ -2930,6 +3120,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mapchangecfgfile",
         "default": "",
@@ -2944,6 +3135,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mapcyclefile",
         "default": "mapcycle.txt",
@@ -2958,6 +3150,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "max_queries_sec",
         "default": "0.5",
@@ -2972,6 +3165,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "max_queries_sec_global",
         "default": "10",
@@ -2986,6 +3180,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "max_queries_window",
         "default": "30",
@@ -3000,6 +3195,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "max_shells",
         "default": "120",
@@ -3019,6 +3215,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "max_smokepuffs",
         "default": "120",
@@ -3038,6 +3235,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "model",
         "default": "barney",
@@ -3057,6 +3255,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "motdfile",
         "default": "motd.html",
@@ -3071,6 +3270,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "MP3FadeTime",
         "default": "2",
@@ -3085,6 +3285,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "MP3Volume",
         "default": "0.8",
@@ -3099,6 +3300,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_allowmonsters",
         "default": "0",
@@ -3113,6 +3315,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "mp_autocrosshair",
         "default": "0",
@@ -3127,6 +3330,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_autokick",
         "default": "1",
@@ -3141,6 +3345,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_autoteambalance",
         "default": "1",
@@ -3155,6 +3360,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_buytime",
         "default": "1.5",
@@ -3169,6 +3375,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_c4timer",
         "default": "45",
@@ -3183,6 +3390,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_chattime",
         "default": "10",
@@ -3197,6 +3405,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_consistency",
         "default": "1",
@@ -3211,6 +3420,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "mp_decals",
         "default": "300",
@@ -3230,6 +3440,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_defaultteam",
         "default": "0",
@@ -3244,6 +3455,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_fadetoblack",
         "default": "0",
@@ -3258,6 +3470,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_falldamage",
         "default": "0",
@@ -3272,6 +3485,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_flashlight",
         "default": "0",
@@ -3286,6 +3500,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_footsteps",
         "default": "1",
@@ -3300,6 +3515,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_forcecamera",
         "default": "0",
@@ -3314,6 +3530,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_forcechasecam",
         "default": "0",
@@ -3328,6 +3545,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_forcerespawn",
         "default": "0",
@@ -3342,6 +3560,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_fraglimit",
         "default": "0",
@@ -3356,6 +3575,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_fragsleft",
         "default": "0",
@@ -3370,6 +3590,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_freezetime",
         "default": "6",
@@ -3384,6 +3605,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_friendlyfire",
         "default": "0",
@@ -3398,6 +3620,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "mp_ghostfrequency",
         "default": "0.1",
@@ -3412,6 +3635,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_hostagepenalty",
         "default": "13",
@@ -3426,6 +3650,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_kickpercent",
         "default": "0.66",
@@ -3440,6 +3665,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_limitteams",
         "default": "2",
@@ -3454,6 +3680,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_logdetail",
         "default": "0",
@@ -3468,6 +3695,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_logecho",
         "default": "1",
@@ -3482,6 +3710,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_logfile",
         "default": "1",
@@ -3496,6 +3725,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_logmessages",
         "default": "1",
@@ -3510,6 +3740,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_mapvoteratio",
         "default": "0.66",
@@ -3524,6 +3755,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_maxrounds",
         "default": "0",
@@ -3538,6 +3770,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "mp_mirrordamage",
         "default": "0",
@@ -3552,6 +3785,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_playerid",
         "default": "0",
@@ -3566,6 +3800,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_roundtime",
         "default": "5",
@@ -3580,6 +3815,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_startmoney",
         "default": "16000",
@@ -3594,6 +3830,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_teamlist",
         "default": "robo;hgrunt",
@@ -3608,6 +3845,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_teamoverride",
         "default": "0",
@@ -3622,6 +3860,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_timeleft",
         "default": "0",
@@ -3636,6 +3875,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_timelimit",
         "default": "0",
@@ -3650,6 +3890,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_tkpunish",
         "default": "0",
@@ -3664,6 +3905,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_weaponstay",
         "default": "0",
@@ -3678,6 +3920,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_windifference",
         "default": "1",
@@ -3692,6 +3935,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "mp_winlimit",
         "default": "0",
@@ -3706,6 +3950,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "m_filter",
         "default": "0",
@@ -3720,6 +3965,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "m_forward",
         "default": "1",
@@ -3734,6 +3980,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "m_pitch",
         "default": "0.022",
@@ -3748,6 +3995,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "m_side",
         "default": "0.8",
@@ -3762,6 +4010,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "m_yaw",
         "default": "0.022",
@@ -3776,6 +4025,7 @@
         }
     },
     {
+        "broken": false,
         "category": "",
         "cvar": "name",
         "default": "Player",
@@ -3790,6 +4040,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "net_graph",
         "default": "0",
@@ -3804,6 +4055,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "net_graphpos",
         "default": "0",
@@ -3818,6 +4070,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "net_graphwidth",
         "default": "192",
@@ -3832,6 +4085,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "net_scale",
         "default": "5",
@@ -3846,6 +4100,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "net_showdrop",
         "default": "0",
@@ -3860,6 +4115,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "net_showpackets",
         "default": "0",
@@ -3874,6 +4130,7 @@
         }
     },
     {
+        "broken": false,
         "category": "Sound",
         "cvar": "nosound",
         "default": "0",
@@ -3888,6 +4145,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "password",
         "default": "",
@@ -3902,6 +4160,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "pausable",
         "default": "0",
@@ -3916,6 +4175,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "port",
         "default": "27015",
@@ -3930,6 +4190,7 @@
         }
     },
     {
+        "broken": false,
         "category": "netcode",
         "cvar": "rate",
         "default": "20000",
@@ -3944,6 +4205,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "rcon_address",
         "default": "",
@@ -3958,6 +4220,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "rcon_password",
         "default": "",
@@ -3972,6 +4235,7 @@
         }
     },
     {
+        "broken": false,
         "category": "connection",
         "cvar": "rcon_port",
         "default": "0",
@@ -3986,6 +4250,7 @@
         }
     },
     {
+        "broken": false,
         "category": "sound",
         "cvar": "room_type",
         "default": "0",
@@ -4000,6 +4265,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "r_aliastransadj",
         "default": "100",
@@ -4019,6 +4285,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "r_aliastransbase",
         "default": "200",
@@ -4038,6 +4305,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_ambient_b",
         "default": "0",
@@ -4057,6 +4325,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_ambient_g",
         "default": "0",
@@ -4076,6 +4345,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_ambient_r",
         "default": "0",
@@ -4095,6 +4365,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "r_bmodelhighfrac",
         "default": "5.0",
@@ -4114,6 +4385,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_bmodelinterp",
         "default": "1",
@@ -4133,6 +4405,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_cachestudio",
         "default": "1",
@@ -4152,6 +4425,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_cullsequencebox",
         "default": "1",
@@ -4171,6 +4445,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_decals",
         "default": "4096",
@@ -4190,6 +4465,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_detailtextures",
         "default": "0",
@@ -4209,6 +4485,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_drawentities",
         "default": "1",
@@ -4228,6 +4505,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_drawflat",
         "default": "0",
@@ -4247,6 +4525,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_draworder",
         "default": "0",
@@ -4266,6 +4545,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_drawviewmodel",
         "default": "1",
@@ -4285,6 +4565,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_dspeeds",
         "default": "0",
@@ -4304,6 +4585,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_dynamic",
         "default": "1",
@@ -4323,6 +4605,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_fullbright",
         "default": "0",
@@ -4342,6 +4625,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_glowshellfreq",
         "default": "2.2",
@@ -4361,6 +4645,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_graphheight",
         "default": "10",
@@ -4380,6 +4665,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_lightmap",
         "default": "0/-1",
@@ -4399,6 +4685,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_lightstyle",
         "default": "-1",
@@ -4418,6 +4705,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_luminance",
         "default": "0",
@@ -4437,6 +4725,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_maxedges",
         "default": "7200",
@@ -4456,6 +4745,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_maxsurfs",
         "default": "2000",
@@ -4475,6 +4765,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "r_mirroralpha",
         "default": "1",
@@ -4494,6 +4785,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_mmx",
         "default": "0",
@@ -4513,6 +4805,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_norefresh",
         "default": "0",
@@ -4532,6 +4825,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_novis",
         "default": "0",
@@ -4551,6 +4845,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_numedges",
         "default": "0",
@@ -4570,6 +4865,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_numsurfs",
         "default": "0",
@@ -4589,6 +4885,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_polymodelstats",
         "default": "0",
@@ -4608,6 +4905,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_reportedgeout",
         "default": "1",
@@ -4627,6 +4925,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_reportsurfout",
         "default": "1",
@@ -4646,6 +4945,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_speeds",
         "default": "0",
@@ -4665,6 +4965,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_timegraph",
         "default": "0",
@@ -4684,6 +4985,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_traceglow",
         "default": "0",
@@ -4703,6 +5005,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_wadtextures",
         "default": "0",
@@ -4722,6 +5025,7 @@
         }
     },
     {
+        "broken": true,
         "category": "video",
         "cvar": "r_wateralpha",
         "default": "1",
@@ -4741,6 +5045,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "r_waterwarp",
         "default": "1",
@@ -4760,6 +5065,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "scr_centertime",
         "default": "2",
@@ -4774,6 +5080,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "scr_connectmsg",
         "default": "",
@@ -4788,6 +5095,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "scr_connectmsg1",
         "default": "",
@@ -4802,6 +5110,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "scr_connectmsg2",
         "default": "",
@@ -4816,6 +5125,7 @@
         }
     },
     {
+        "broken": true,
         "category": "interface",
         "cvar": "scr_conspeed",
         "default": "600",
@@ -4830,6 +5140,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "scr_ofsx",
         "default": "0",
@@ -4849,6 +5160,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "scr_ofsy",
         "default": "0",
@@ -4868,6 +5180,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "scr_ofsz",
         "default": "0",
@@ -4887,6 +5200,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "sensitivity",
         "default": "3",
@@ -4901,6 +5215,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "servercfgfile",
         "default": "server.cfg",
@@ -4915,6 +5230,7 @@
         }
     },
     {
+        "broken": false,
         "category": "\u00a0",
         "cvar": "skill",
         "default": "1",
@@ -4929,6 +5245,7 @@
         }
     },
     {
+        "broken": false,
         "category": "\u00a0",
         "cvar": "sk_*",
         "default": "",
@@ -4943,6 +5260,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "snd_noextraupdate",
         "default": "0",
@@ -4957,6 +5275,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_autodirector",
         "default": "1",
@@ -4971,6 +5290,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_autodirector_internal",
         "default": "1",
@@ -4985,6 +5305,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_drawcone",
         "default": "1",
@@ -4999,6 +5320,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_drawcone_internal",
         "default": "1",
@@ -5013,6 +5335,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_drawnames",
         "default": "1",
@@ -5027,6 +5350,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_drawnames_internal",
         "default": "1",
@@ -5041,6 +5365,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_drawstatus",
         "default": "1",
@@ -5055,6 +5380,7 @@
         }
     },
     {
+        "broken": true,
         "category": "spectator",
         "cvar": "spec_drawstatus_internal",
         "default": "1",
@@ -5069,6 +5395,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_mode_internal",
         "default": "1",
@@ -5083,6 +5410,7 @@
         }
     },
     {
+        "broken": false,
         "category": "spectator",
         "cvar": "spec_pip",
         "default": "0",
@@ -5097,6 +5425,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "spec_scoreboard",
         "default": "0",
@@ -5111,6 +5440,7 @@
         }
     },
     {
+        "broken": false,
         "category": "sound",
         "cvar": "suitvolume",
         "default": "0.25",
@@ -5125,6 +5455,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "sv_accelerate",
         "default": "5",
@@ -5139,6 +5470,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_aim",
         "default": "0",
@@ -5153,6 +5485,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_airaccelerate",
         "default": "10",
@@ -5167,6 +5500,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "sv_airmove",
         "default": "1",
@@ -5181,6 +5515,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_allowdownload",
         "default": "1",
@@ -5195,6 +5530,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_allowupload",
         "default": "1",
@@ -5209,6 +5545,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_alltalk",
         "default": "0",
@@ -5223,6 +5560,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_bounce",
         "default": "1",
@@ -5237,6 +5575,7 @@
         }
     },
     {
+        "broken": false,
         "category": "cheat",
         "cvar": "sv_cheats",
         "default": "0",
@@ -5251,6 +5590,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_clienttrace",
         "default": "1",
@@ -5265,6 +5605,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "sv_clipmode",
         "default": "0",
@@ -5279,6 +5620,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_contact",
         "default": "",
@@ -5293,6 +5635,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_downloadurl",
         "default": "",
@@ -5307,6 +5650,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_enableoldqueries",
         "default": "0",
@@ -5321,6 +5665,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_filetransfercompression",
         "default": "1",
@@ -5335,6 +5680,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_filterban",
         "default": "1",
@@ -5349,6 +5695,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_friction",
         "default": "4",
@@ -5363,6 +5710,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_gravity",
         "default": "800",
@@ -5377,6 +5725,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_instancedbaseline",
         "default": "1",
@@ -5391,6 +5740,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_lan",
         "default": "0",
@@ -5405,6 +5755,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_lan_rate",
         "default": "20000",
@@ -5419,6 +5770,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_logbans",
         "default": "0",
@@ -5433,6 +5785,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_logblocks",
         "default": "0",
@@ -5447,6 +5800,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_log_onefile",
         "default": "0",
@@ -5461,6 +5815,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_log_singleplayer",
         "default": "0",
@@ -5475,6 +5830,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_maxrate",
         "default": "0",
@@ -5489,6 +5845,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_maxspeed",
         "default": "320",
@@ -5503,6 +5860,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_maxunlag",
         "default": "0.5",
@@ -5517,6 +5875,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_maxupdaterate",
         "default": "30",
@@ -5531,6 +5890,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_maxvelocity",
         "default": "2000",
@@ -5545,6 +5905,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_minrate",
         "default": "0",
@@ -5559,6 +5920,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_minupdaterate",
         "default": "10",
@@ -5573,6 +5935,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_newunit",
         "default": "0",
@@ -5587,6 +5950,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_password",
         "default": "",
@@ -5601,6 +5965,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_proxies",
         "default": "1",
@@ -5615,6 +5980,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_rcon_banpenalty",
         "default": "0",
@@ -5629,6 +5995,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_rcon_maxfailures",
         "default": "10",
@@ -5643,6 +6010,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_rcon_minfailures",
         "default": "5",
@@ -5657,6 +6025,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_rcon_minfailuretime",
         "default": "30",
@@ -5671,6 +6040,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_region",
         "default": "-1",
@@ -5685,6 +6055,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_restart",
         "default": "0",
@@ -5699,6 +6070,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_restartround",
         "default": "0",
@@ -5713,6 +6085,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_send_logos",
         "default": "1",
@@ -5727,6 +6100,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_send_resources",
         "default": "1",
@@ -5741,6 +6115,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_skycolor_b",
         "default": "0",
@@ -5755,6 +6130,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_skycolor_g",
         "default": "0",
@@ -5769,6 +6145,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_skycolor_r",
         "default": "0",
@@ -5783,6 +6160,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_skyname",
         "default": "desert",
@@ -5797,6 +6175,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_skyvec_x",
         "default": "0",
@@ -5811,6 +6190,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_skyvec_y",
         "default": "0",
@@ -5825,6 +6205,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_skyvec_z",
         "default": "0",
@@ -5839,6 +6220,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_spectatormaxspeed",
         "default": "500",
@@ -5853,6 +6235,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_stats",
         "default": "1",
@@ -5867,6 +6250,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_stepsize",
         "default": "18",
@@ -5881,6 +6265,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_stopspeed",
         "default": "75",
@@ -5895,6 +6280,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_timeout",
         "default": "60",
@@ -5909,6 +6295,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_unlag",
         "default": "1",
@@ -5923,6 +6310,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_unlagsamples",
         "default": "1",
@@ -5937,6 +6325,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_uploadmax",
         "default": "0.5",
@@ -5951,6 +6340,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_version",
         "default": "",
@@ -5965,6 +6355,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_visiblemaxplayers",
         "default": "-1",
@@ -5979,6 +6370,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_voicecodec",
         "default": "voice_miles",
@@ -5993,6 +6385,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_voiceenable",
         "default": "1",
@@ -6007,6 +6400,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_voicequality",
         "default": "3",
@@ -6021,6 +6415,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "sv_wateraccelerate",
         "default": "10",
@@ -6035,6 +6430,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_wateramp",
         "default": "0",
@@ -6049,6 +6445,7 @@
         }
     },
     {
+        "broken": true,
         "category": "server",
         "cvar": "sv_waterfriction",
         "default": "1",
@@ -6063,6 +6460,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sv_zmax",
         "default": "4096",
@@ -6077,6 +6475,7 @@
         }
     },
     {
+        "broken": false,
         "category": "server",
         "cvar": "sys_ticrate",
         "default": "100",
@@ -6091,6 +6490,7 @@
         }
     },
     {
+        "broken": false,
         "category": "sound",
         "cvar": "s_a3d",
         "default": "0",
@@ -6105,6 +6505,7 @@
         }
     },
     {
+        "broken": false,
         "category": "sound",
         "cvar": "s_eax",
         "default": "0",
@@ -6119,6 +6520,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "s_show",
         "default": "0",
@@ -6133,6 +6535,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "texgamma",
         "default": "2.0",
@@ -6152,6 +6555,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "tfc_newmodels",
         "default": "1",
@@ -6171,6 +6575,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "topcolor",
         "default": "0",
@@ -6190,6 +6595,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "traceralpha",
         "default": "0.5",
@@ -6209,6 +6615,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "tracerblue",
         "default": "0.4",
@@ -6228,6 +6635,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "tracergreen",
         "default": "0.8",
@@ -6247,6 +6655,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "tracerlength",
         "default": "0.8",
@@ -6266,6 +6675,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "traceroffset",
         "default": "30",
@@ -6285,6 +6695,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "tracerred",
         "default": "0.8",
@@ -6304,6 +6715,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "tracerspeed",
         "default": "6000",
@@ -6323,6 +6735,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "vgui_emulatemouse",
         "default": "0",
@@ -6337,6 +6750,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "vid_d3d",
         "default": "0/1",
@@ -6356,6 +6770,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "viewsize",
         "default": "120",
@@ -6375,6 +6790,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "violence_ablood",
         "default": "1",
@@ -6394,6 +6810,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "violence_agibs",
         "default": "1",
@@ -6413,6 +6830,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "violence_hblood",
         "default": "1",
@@ -6432,6 +6850,7 @@
         }
     },
     {
+        "broken": false,
         "category": "video",
         "cvar": "violence_hgibs",
         "default": "1",
@@ -6451,6 +6870,7 @@
         }
     },
     {
+        "broken": false,
         "category": "voice",
         "cvar": "voice_enable",
         "default": "1",
@@ -6465,6 +6885,7 @@
         }
     },
     {
+        "broken": false,
         "category": "voice",
         "cvar": "voice_fadeouttime",
         "default": "0.1",
@@ -6479,6 +6900,7 @@
         }
     },
     {
+        "broken": false,
         "category": "voice",
         "cvar": "voice_forcemicrecord",
         "default": "1",
@@ -6493,6 +6915,7 @@
         }
     },
     {
+        "broken": false,
         "category": "voice",
         "cvar": "voice_inputfromfile",
         "default": "0",
@@ -6507,6 +6930,7 @@
         }
     },
     {
+        "broken": false,
         "category": "voice",
         "cvar": "voice_loopback",
         "default": "0",
@@ -6521,6 +6945,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "voice_recordtofile",
         "default": "0",
@@ -6535,6 +6960,7 @@
         }
     },
     {
+        "broken": false,
         "category": "voice",
         "cvar": "voice_scale",
         "default": "1",
@@ -6549,6 +6975,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "volume",
         "default": "0.2",
@@ -6563,6 +6990,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "v_centermove",
         "default": "0.150",
@@ -6577,6 +7005,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "v_centerspeed",
         "default": "500",
@@ -6591,6 +7020,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "v_dark",
         "default": "0",
@@ -6605,6 +7035,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "waterroom_type",
         "default": "14",
@@ -6619,6 +7050,7 @@
         }
     },
     {
+        "broken": false,
         "category": "mouse",
         "cvar": "zoom_sensitivity_ratio",
         "default": "1.2",
@@ -6633,6 +7065,7 @@
         }
     },
     {
+        "broken": false,
         "category": "interface",
         "cvar": "_cl_autowepswitch",
         "default": "1",
@@ -6647,6 +7080,7 @@
         }
     },
     {
+        "broken": false,
         "category": "audio",
         "cvar": "_snd_mixahead",
         "default": "0.1",

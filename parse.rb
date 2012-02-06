@@ -7,6 +7,10 @@ File.open("cvarlist.html") do |file|
   doc.search('#cvarTable').each do |a|
     first = true
     a.xpath('//tr').each do |element|
+
+      klass = element.attributes['class']
+      broken = klass ? klass.value == "broken" : false
+
       # first attribute, hl, cs only?
       game = element.children[0].attributes['class']
       if game == nil then
@@ -61,6 +65,8 @@ File.open("cvarlist.html") do |file|
       entry['type'] = type
       entry['category'] = category
       entry['description'] = description
+      entry['broken'] = broken
+
       if category == 'video'
         renderer = { }
         renderer['sft'] = sft;
