@@ -1,5 +1,5 @@
 
-$.get('./site.min.json')
+$.get('site.min.json')
 .success(function(data) {
   json = JSON.parse(data);
   var body = $('#data').find('tbody');
