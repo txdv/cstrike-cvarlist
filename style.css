@@ -1,0 +1,25 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Tahoma, Arial;
+}
+
+body {
+  margin: 0 20px;
+  background: #fff;
+  font-size: 10px;
+}
+
+h1 {
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 20px 0px;
+}
