@@ -47,7 +47,7 @@ File.open("cvarlist.html") do |file|
       sft = element.children[9].attributes['class'] ? true : false
 
       # eleventh attribute, category?
-      category = element.children[10].text
+      category = element.children[10].text.downcase
 
       # twelth attribute, description
       description = element.children[11].text

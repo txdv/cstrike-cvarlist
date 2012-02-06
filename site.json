@@ -4131,7 +4131,7 @@
     },
     {
         "broken": false,
-        "category": "Sound",
+        "category": "sound",
         "cvar": "nosound",
         "default": "0",
         "description": "Should disable all sound, except for certain sounds like the footstep sound when a bullet ricochets.",
