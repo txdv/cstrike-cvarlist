@@ -1,7 +1,7 @@
 
 $.get('site.min.json')
 .success(function(data) {
-  json = JSON.parse(data);
+  var json = JSON.parse(data);
   var body = $('#data').find('tbody');
   for (var i = 0; i < json.length; i++) {
     var e = json[i];
