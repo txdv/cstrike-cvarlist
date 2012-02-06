@@ -1,3 +1,4 @@
+$(document).ready(function () {
 
 $.ajax({
   type: 'get',
@@ -19,8 +20,11 @@ $.ajax({
       );
     }
     $('#info').text("successfully loaded");
+    $('#data').tablesorter();
   }
 })
 .error(function (data) {
   $('#info').text("failed to load");
 })
+
+});
