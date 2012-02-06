@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Tahoma, Arial;
+}
+body {
+  margin: 0 20px;
+  background: #fff;
+  font-size: 10px;
+}
+h1 {
+  margin: 20px 0 0 0;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+h2, h3 {
+  text-align: center;
+  font-size: 12px;
+}
+h2 * {
+  font-weight: bold;
+  color: #bbb;
+}
+#ads {
+  margin: auto;
+  text-align: center;
+}
+#legend {
+  margin: 20px 0 2px 35px;
+  font-size: 12px;
+  list-style-position: inside;
+}
+#csonly {
+  list-style-image: url(img/csicon.gif);
+}
+#hlonly {
+  list-style-image: url(img/hlicon.gif);
+}
+#broken {
+  list-style-image: url(img/broken.gif);
+}
+#A2Z {
+  text-align: center;
+  word-spacing: 1em;
+}
+#A2Z * {
+  font: 20px Tahoma;
+  text-decoration: none;
+  color: #000;
+}
+#container {
+  background: #eef url(img/upper_r_corner.gif) no-repeat right top;
+}
+#cvarTable {
+  font-size: 12px;
+  border-collapse: collapse;
+  background: url(img/upper_l_corner.gif) no-repeat left top;
+}
+#cvarTable th {
+  padding: 2px;
+  height: 40px;
+}
+#cvarTable td {
+  padding: 4px;
+}
+#cvarTable td.csonly {
+  padding: 4px;
+  width: 15px;
+  background: url(img/csicon.gif) no-repeat center center;
+}
+#cvarTable td.hlonly {
+  padding: 4px;
+  width: 15px;
+  background: url(img/hlicon.gif) no-repeat center center;
+}
+#cvarTable td.checked {
+  background: url(img/checked.gif) no-repeat center center;
+}
+#cvarTable tr.oddrow td {
+  background-color: #f5f5ff;
+}
+#cvarTable tr.oddrow td {
+  background-color: #f5f5ff;
+}
+#cvarTable tr.broken td, #legend dt.broken {
+  background-color: #fdd;
+}
+#cvarTable tr.hidden td {
+  display: none;
+}
+#cvarTable tr.show td {
+  display: table-cell;
+}
