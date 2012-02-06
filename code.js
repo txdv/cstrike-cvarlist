@@ -1,10 +1,10 @@
 
 $.get('site.min.json')
 .success(function(data) {
-  var json = JSON.parse(data);
+  var data = JSON.parse(data);
   var body = $('#data').find('tbody');
   for (var i = 0; i < json.length; i++) {
-    var e = json[i];
+    var e = data[i];
     body.append($('<tr>')
       .append($('<td>').text(e.cvar))
       .append($('<td>').text(e.value.default))
