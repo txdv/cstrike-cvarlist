@@ -1,8 +1,9 @@
 
 $.get('site.min.json')
 .success(function(data) {
-  var data = JSON.parse(data);
-  var body = $('#data').find('tbody');
+  var body = $('#data').find('tbody')
+    , data = JSON.parse(data);
+
   for (var i = 0; i < data.length; i++) {
     var e = data[i];
     body.append($('<tr>')
