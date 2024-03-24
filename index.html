@@ -5,27 +5,4362 @@
     <title>Counter Strike 1.6 CVar list</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADNx8gA+fHqAEk5MwBPOzAAqKepAPn5+QC9vb0A1tDRADktKwCYmJgAJxwUAOvr6wCvr68AZ1lTAMbGxgAvIBcA3d3dAIN3bQC2uLgAqaShAKSppwDPz88AXlNLAL/AvgAoGBIAsqqqAJ+mnwDKysoARjgyAGFORgC9urYA9vj4AOPi5AC6vLwApqerAL2+wgDT09MAramoAB8fHwAvHA0AWEpEALeysQDNyMUAt7e3ADoiFgCGdXIAuLm9AKWrpgCnqakAwbq3AOXl5QA4LSUAwb66AMDAwACtqqwAx766AFNFPwCzsKwAtK6vAMrFxgC0s7UApZ6bANPHwwBaT0sA+PP0ANHMyQC9t7gAu7u7ADwmGgB4bWUAKBwYAMbAwQDExMQAkYh/APHw7AChn58AsrizAGxjWgC4trYAzsnKADIoIQDNzc0AvrizAKuinwCjpqsAbGxsANjOxwDt4t4AqaquAFBBPgDY0tMA1tbWAP///gBQRUEAoZiUALKtrgCvsbEA7e3tALGxsQDx6u0AysTFAOLZ1gBXTkoAtrm3AL2ytABDPDkA083OAJeRkgCHfHgA6+LfAObo6AC/wsAArKysADYwMQDr6u4AkIWBAPPv9ABfTEUA5OHdACEVDwDj4+MAp6enAL+6uwDU0M8Aq6iqAJeYlgB6a2IAZlpUAGNfWgBXR0AAMCEYADUiGwCopqUAnZSLAMW6vAC2rKUA8ernANnZ2QAvHRYAqJeUAPDw8ACOiokAn6OdALS0tADy7vMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjA4Gjw5DekJCejpCegYOBQ4bGyRbWwdaB3tregckSA6PGw4bJjU7AGRHcWpPGxuPL28XjUYYNSFShVAqDhcOjxpMZ3pZgwxiNzNsNGBnIQyOYI8pPoqAOXN3Xh4SYo8MCTAiNlMcCodGCCmEfHxgfH0wWAwZbA+CUBxfBDBwDHkJBFRYJT0nLC1ofDAUeXB5SzwuI04TA0SLhkMrZ2JieY8ODjUbUTh1AmllMQcONWJDUSRRUSQNHYEoXWZBFRsMDokQMluJRX4RFn8/aVWJNiQQeHh4eAFNSVZXbYgQEENbYWFhYWFKdjlcQGNhC4wGiRCMCwsLYW4fIHKQdAuJCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" >
-    <script language="javascript" src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script language="javascript" src="code.js"></script>
   </head>
   <body>
     <h1>Half-Life and Counter-Strike CVar list</h1>
-    <h2>This is the cvarlist from elxdraco.net, so all hail goes to them.</h2>
-    <h2>This is just a 'mirror' so people can access this information easily and for free. Additionaly I do provide a <a href="https://github.com/txdv/cstrike-cvarlist/">jsonified version of the entire data set</a>, which can be easily used to create own tools or such.</h2>
-    <span id="info"></span>
-    <table id="data" class="tablesorter">
+    <h2><a href="https://github.com/txdv/cstrike-cvarlist/">cvars in json format availabe here</a></h2>
+    <table class="tablesorter">
       <thead>
-      <tr>
-        <th>CVar name</th>
-        <th>Default val</th>
-        <th>Min val</th>
-        <th>Max val</th>
-        <th>Type</th>
-        <th width="70px">Category</th>
-        <th>Description</th>
-      </tr>
+        <tr>
+          <th>CVar name</th>
+          <th>Default val</th>
+          <th>Min val</th>
+          <th>Max val</th>
+          <th>Type</th>
+          <th width="70px">Category</th>
+          <th>Description</th>
+        </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>allow_spectators</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Allows players to join as spectator.</td>
+        </tr>
+
+        <tr>
+          <td>ati_npatch</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Enables ATI's TRUform technology, this will result in higher quality models but will decrease performance.</td>
+        </tr>
+
+        <tr>
+          <td>ati_subdiv</td>
+          <td>2</td>
+          <td>0</td>
+          <td>7</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This is the ATI TRUform level, the higher you go (with ati_npatch set to 1) the more polygons are added to the models to smooth them out</td>
+        </tr>
+
+        <tr>
+          <td>bgmbuffer</td>
+          <td>4096</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>audio</td>
+          <td>Sets the allocated memory for CD/MP3 music in kB.</td>
+        </tr>
+
+        <tr>
+          <td>bgmvolume</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>sound</td>
+          <td>When disabled, it pauses the current sound which is being played with "mp3" or "cd" command. To unpause, just reenable.</td>
+        </tr>
+
+        <tr>
+          <td>bottomcolor</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Sets the bottom color of your model in Half-Life that others see.</td>
+        </tr>
+
+        <tr>
+          <td>brightness</td>
+          <td>1</td>
+          <td>0</td>
+          <td>2</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Sets the brightness value.</td>
+        </tr>
+
+        <tr>
+          <td>cam_command</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>cheat</td>
+          <td>Enable Third Person. It's the same as the command "thirdperson". In HL, it doesn't need sv_cheats 1 to work.</td>
+        </tr>
+
+        <tr>
+          <td>cam_contain</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>boolean</td>
+          <td>cheat</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>cam_idealdist</td>
+          <td>64</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>The distance of the camera in third person. See cam_command.</td>
+        </tr>
+
+        <tr>
+          <td>cam_idealpitch</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>The pitch of the third person camera. See cam_command.</td>
+        </tr>
+
+        <tr>
+          <td>cam_idealyaw</td>
+          <td>90</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>The yaw of the third person camera. See cam_command.</td>
+        </tr>
+
+        <tr>
+          <td>cam_snapto</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>cheat</td>
+          <td>If enabled, your view angles will move as the same speed as your movements instead of moving your view angles faster than your movements. Only in third person. See cam_command.</td>
+        </tr>
+
+        <tr>
+          <td>chase_active</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>camera</td>
+          <td>This is thirdperson, like cam_command 1, except that it only works in single player and when you move your mouse, it is like zooming in your player model.</td>
+        </tr>
+
+        <tr>
+          <td>chase_back</td>
+          <td>100</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>camera</td>
+          <td>It sets how far the camera is behind you when chase_active is 1.</td>
+        </tr>
+
+        <tr>
+          <td>chase_right</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>camera</td>
+          <td>It sets how far the camera is at your right you when chase_active is 1.If you want to make the camera at your left, use negative values.</td>
+        </tr>
+
+        <tr>
+          <td>chase_up</td>
+          <td>16</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>camera</td>
+          <td>It sets how far the camera is above you when chase_active is 1.</td>
+        </tr>
+
+        <tr>
+          <td>clientport</td>
+          <td>27005</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>connection</td>
+          <td>Sets the port that the client connects to the server through.</td>
+        </tr>
+
+        <tr>
+          <td>clockwindow</td>
+          <td>0.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>It's designed to combat the speedhacks being used in-game. The default value for this cvar is "0.5". As you lower the value (0.3, 0.1, 0.01, etc.), modem clients' games should feel jittery. Adjusting "clockwindow" does not affect the server. This doesn't really block the speedhacks now, but just make the speedhacker lag a lot when speedhacking.</td>
+        </tr>
+
+        <tr>
+          <td>cl_allowdownload</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>connection</td>
+          <td>Allow maps, models, sounds, sprites, textures download when connecting to a server.</td>
+        </tr>
+
+        <tr>
+          <td>cl_allowupload</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>connection</td>
+          <td>Allow the upload of your custom spray when connecting to a server.</td>
+        </tr>
+
+        <tr>
+          <td>cl_anglespeedkey</td>
+          <td>0.67</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>movement</td>
+          <td>It defines the turning speed ratio with +left/+right while walking (+speed). cl_yawspeed * cl_anglespeedkey = turning speed while walking. By default the turning speed while walking is 140.7(210 * 0.67 = 140.7)</td>
+        </tr>
+
+        <tr>
+          <td>cl_backspeed</td>
+          <td>400</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>movement</td>
+          <td>Sets the speed using the backward key (+back). This is limited by sv_maxspeed server side. And in CS this is limited by the per weapon speed. This should be equal to cl_forward and cl_sidespeed or you will have problem holding forward and left at the same time for example.</td>
+        </tr>
+
+        <tr>
+          <td>cl_bob</td>
+          <td>0.01</td>
+          <td>0</td>
+          <td>1</td>
+          <td>float</td>
+          <td>video</td>
+          <td>Sets the amount that the view bobs while the player is running.</td>
+        </tr>
+
+        <tr>
+          <td>cl_bobcycle</td>
+          <td>0.8</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>video</td>
+          <td>Sets how frequent the player's view bobs while running. I would recommend leaving this at the default value, since it messes up your hands since an update(it's like zooming on them). Before this update it messed up your crosshair. Has no effect when cl_bob is 0.</td>
+        </tr>
+
+        <tr>
+          <td>cl_bobup</td>
+          <td>0.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>video</td>
+          <td>Sets the amount the player bobs up while running. Has no effect when cl_bob is 0.</td>
+        </tr>
+
+        <tr>
+          <td>cl_chasedist</td>
+          <td>112</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>camera</td>
+          <td>It modifies how far the camera is zoomed out whilst your dead.</td>
+        </tr>
+
+        <tr>
+          <td>cl_clockreset</td>
+          <td>0.1</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>netcode</td>
+          <td>If the client clock drifts more than cl_clockreset from the server, we just slam it to use the server and reset the delta to 0  usually occurs at signon to server and maybe if there is a lot of packet loss.</td>
+        </tr>
+
+        <tr>
+          <td>cl_cmdbackup</td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>In addition, with each command packets(cl_cmdrate), we re-send the last few previous movement commands ( in case there is packet loss ) so that we can keep moving smoothly in the face of minor network problems. The default number of "backup" commands that we send is 2, but you can change this number by setting cl_cmdbackup to another number. You can send more than 8 backup commands and you should note that sending backup commands will increase your outgoing bandwidth usage.</td>
+        </tr>
+
+        <tr>
+          <td>cl_cmdrate</td>
+          <td>30</td>
+          <td>10</td>
+          <td></td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>	This is the maximum of command packets you will send to the server per second. The default is to send up to 30 command packets per second up to the server. If you are running faster than 30 frames per second, then multiple commands will be put into some packets. You can change the rate of sending command packets to the server by setting the cl_cmdrate cvar.</td>
+        </tr>
+
+        <tr>
+          <td>cl_corpsestay</td>
+          <td>600</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Time in seconds before dead bodies dissapears from the ground.</td>
+        </tr>
+
+        <tr>
+          <td>cl_crosshair_color</td>
+          <td>50 250 50</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>Defines the color of the crosshair in RGB, the value must be encased in double quotes.</td>
+        </tr>
+
+        <tr>
+          <td>cl_crosshair_size</td>
+          <td>0/auto</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>Defines the size of your crosshair. The different values are : 0 or auto / 1 or small / 2 or medium / 3 or large.</td>
+        </tr>
+
+        <tr>
+          <td>cl_crosshair_translucent</td>
+          <td></td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Enables translucent crosshair.</td>
+        </tr>
+
+        <tr>
+          <td>cl_dlmax</td>
+          <td>128</td>
+          <td>16</td>
+          <td>1024</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>Cl_dlmax determines the fragment size for chunks of player decals, etc. that are downloaded while playing the game. Clamped to 16 to 1024 bytes. Useful to try and limit decals from taking up a lot of bandwidth  this made a lot more sense back when everyone was on 14.4 kbps modems.</td>
+        </tr>
+
+        <tr>
+          <td>cl_download_ingame</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>connection</td>
+          <td>Enables the download of players custom sprays while playing.</td>
+        </tr>
+
+        <tr>
+          <td>cl_dynamiccrosshair</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Enables the dynamic crosshair when crouching/jumping...</td>
+        </tr>
+
+        <tr>
+          <td>cl_fixtimerate</td>
+          <td>7.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>netcode</td>
+          <td>Cl_fixtimerate is the # of msec per frame of clock drift fixup. Since the server is sending timestamps in every packet, but we only read networking once per frame, we dont want to just accept the server clock, so we use it as a target and correct toward it by the fixtimerate (unless the delta becomes too large and we snap the client to the server clock).</td>
+        </tr>
+
+        <tr>
+          <td>cl_fog_b</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the fog color blue value. Fog can be enabled with gl_fog 1. By default, this CVar is hidden and you need to add -dev to the game command line for this cvar to work. The only official map that have fog is de_inferno_cz. Map authors can add fog in their maps with the env_fog entity which auto set this CVar.</td>
+        </tr>
+
+        <tr>
+          <td>cl_fog_density</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>float</td>
+          <td>video</td>
+          <td>It sets the density of the fog. Fog can be enabled with gl_fog 1. By default, this CVar is hidden and you need to add -dev to the game command line for this cvar to work. The only official map that have fog is de_inferno_cz. Map authors can add fog in their maps with the env_fog entity which auto set this CVar. A good value is 0.0003.</td>
+        </tr>
+
+        <tr>
+          <td>cl_fog_g</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the fog color green value. Fog can be enabled with gl_fog 1. By default, this CVar is hidden and you need to add -dev to the game command line for this cvar to work. The only official map that have fog is de_inferno_cz. Map authors can add fog in their maps with the env_fog entity which auto set this CVar.</td>
+        </tr>
+
+        <tr>
+          <td>cl_fog_r</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the fog color red value. Fog can be enabled with gl_fog 1. By default, this CVar is hidden and you need to add -dev to the game command line for this cvar to work. The only official map that have fog is de_inferno_cz. Map authors can add fog in their maps with the env_fog entity which auto set this CVar.</td>
+        </tr>
+
+        <tr>
+          <td>cl_forwardspeed</td>
+          <td>400</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>movement</td>
+          <td>Sets the speed using the forward key (+forward). This is limited by sv_maxspeed server side. And in CS this is limited by the per weapon speed.This should be equal to cl_backspeed and cl_sidespeed or you will have problem holding forward and left at the same time for example.</td>
+        </tr>
+
+        <tr>
+          <td>cl_gaitestimation</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>netcode</td>
+          <td>Cl_gaitestimation uses an alternate path for computing the velocity of other players, which is used to drive their lower body (leg) animations. However, cs 1.6 forces it on and the cvar is ignored.</td>
+        </tr>
+
+        <tr>
+          <td>cl_gg</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>If enables, when viewing a demo with using playdemo or viewdemo, it runs the demo in benchmaking mode, quits the game and saves the results in fps.txt file . It's the same as running a demo with gg "demoname".</td>
+        </tr>
+
+        <tr>
+          <td>cl_himodels</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Enables the High Quality models. This only works in Half-Life.</td>
+        </tr>
+
+        <tr>
+          <td>cl_idealpitchscale</td>
+          <td>0.8</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>video</td>
+          <td>This was used by a system (mostly for using joysticks) of adjusting the eye pitch angle when walking up/down sloped surfaces. It looks like this used to scale how quickly the pitch converged on the ideal pitch for the slope. This works when lookspring is enabled (mouse look need to be disabled) and when joystick look is enabled. The value is by how many degree the view is adjusted when walking up/down sloped surfaces.</td>
+        </tr>
+
+        <tr>
+          <td>cl_lc</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>netcode</td>
+          <td>This is called "server-side hit computation and lag compensation".This only works if the server is allowing lag compensation (sv_unlag 1) and if the firing player is requesting lag compensation (cl_lc 1 - note that the player must also be predicting weapon firing client-side, too, or cl_lc is ignored). Don't change this. See also cl_lw.</td>
+        </tr>
+
+        <tr>
+          <td>cl_logocolor</td>
+          <td>#Valve_Orange</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>It defines the color of your spray: #Valve_Blue, #Valve_Brown, #Valve_Dkgray, #Valve_Ltblue, #Valve_Ltgray, #Valve_Green, #Valve_Orange, #Valve_Red, #Valve_Yellow</td>
+        </tr>
+
+        <tr>
+          <td>cl_logofile</td>
+          <td>lambda</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>It defines which spray you want to use among those: 8ball1, andre, camp1, chick1, chuckskull, devl1, gun1, lambda, skull, smiley, splatt, tiki, v_1</td>
+        </tr>
+
+        <tr>
+          <td>cl_lw</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>netcode</td>
+          <td>This is called "client-side weapon firing prediction".What this refers to is the instantaneous set of effects that occur when the fire button is pressed. These effects are all done client-side if client-side weapon firing prediction is enabled (cl_lw is 1). The effects include: starting the weapon firing animation, showing any muzzle flash, creating any ejected shells, drawing decals and bullet puffs at the impact spot on the wall of the level, starting the weapon firing sound, etc. However, the actual determination of whether the shot (for hit-scan weapons at least) hit another player is now and always has been done at the server. If this is disabled, Lag Compensation is also disabled. See cl_lc.</td>
+        </tr>
+
+        <tr>
+          <td>cl_minmodels</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Enable displaying of only the minimum models: leet.mdl, gign.mdl and vip.mdl, enabling may improve performance.</td>
+        </tr>
+
+        <tr>
+          <td>cl_movespeedkey</td>
+          <td>0.52</td>
+          <td>0</td>
+          <td>0.52</td>
+          <td>float</td>
+          <td>movement</td>
+          <td>The speed at which you move when +speed is active.</td>
+        </tr>
+
+        <tr>
+          <td>cl_needinstanced</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>developer</td>
+          <td>Enabling this will print into the console some infos about the models being loaded(weapon models). You need developer 1 to see the infos. And you need sv_instancedbaseline 1 server side. (This is already 1 by default)</td>
+        </tr>
+
+        <tr>
+          <td>cl_nosmooth</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>netcode</td>
+          <td>It defines if the prediction errors will be smoothly corrected over the cl_smoothtime time. If set to 1, the prediction error smoothing is disabled (same with cl_smoothime 0).</td>
+        </tr>
+
+        <tr>
+          <td>cl_observercrosshair</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>This enables the crosshair in Free Look spectator mode. It's buggued, it only works if you die and the camera is set to free look, after changing spectating mode, it will not work except next round if you die and are in free look mode again.</td>
+        </tr>
+
+        <tr>
+          <td>cl_pitchdown</td>
+          <td>89</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>Sets the maximum view angle to look down. This is locked and can't be changed in CS.</td>
+        </tr>
+
+        <tr>
+          <td>cl_pitchspeed</td>
+          <td>225</td>
+          <td>50</td>
+          <td></td>
+          <td>float</td>
+          <td>movement</td>
+          <td>This is how fast your view loop up / look down with using the commands +lookup / +lookdown.</td>
+        </tr>
+
+        <tr>
+          <td>cl_pitchup</td>
+          <td>89</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>Sets the maximum view angle to look up. This is locked and can't be changed in CS.</td>
+        </tr>
+
+        <tr>
+          <td>cl_pmanstats</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>It displays on your screen infos about particles. The particles are smokes grenades (maybe there are others things, but I didn't see anything other that could change this particle meter)."Number of particles" is the number of particles that are in the map at the moment."Particles Drawn" is how much particles are drawn on your screen at the moment."CMiniMem Free" is how much memory is availaible for smokes.</td>
+        </tr>
+
+        <tr>
+          <td>cl_radartype</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Enables opaque (non translucent) radar.</td>
+        </tr>
+
+        <tr>
+          <td>cl_rate</td>
+          <td>9999</td>
+          <td>1000</td>
+          <td>20000</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>This is how many bytes per seconds the client send to the server. Note: It's a command but it works like a cvar, except that sometimes it doesn't work if you try setting it in your cfg.</td>
+        </tr>
+
+        <tr>
+          <td>cl_resend</td>
+          <td>6</td>
+          <td>1.5</td>
+          <td>20</td>
+          <td>float</td>
+          <td>connection</td>
+          <td>Delay in seconds before the client will resend the 'connect' attempt. This is when you have problem connecting to server and when you see : "Retrying connection to server #1". And this hasn't anything to do with netcode like people originally though.</td>
+        </tr>
+
+        <tr>
+          <td>cl_righthand</td>
+          <td>1</td>
+          <td>-1</td>
+          <td>1</td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>If it's set to -1, you'll have your guns on left hand and your knife on right hand. If it's set to 0, all weapons are on left hand. If it's set to 1, all weapons are on right hand.</td>
+        </tr>
+
+        <tr>
+          <td>cl_shadows</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Enables player shadows (small black circle), disable to improve performance.</td>
+        </tr>
+
+        <tr>
+          <td>cl_showerror</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Show the Prediction Errors on your screen.</td>
+        </tr>
+
+        <tr>
+          <td>cl_showevents</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Enables showing on events like weapon firing, all events are listed in cstrike/events/.</td>
+        </tr>
+
+        <tr>
+          <td>cl_showfps</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Shows your current FPS in the upper left corner of your screen.</td>
+        </tr>
+
+        <tr>
+          <td>cl_showmessages</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Dump network traffic to console. It needs developer 1 to work.</td>
+        </tr>
+
+        <tr>
+          <td>cl_shownet</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>0 Do not display any information.1 Print current incoming packet size in byte.2 Print information about the current in coming packet and it's size.</td>
+        </tr>
+
+        <tr>
+          <td>cl_sidespeed</td>
+          <td>400</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>movement</td>
+          <td>Sets the speed using the move left and move right key (+moveleft and +moveright). This is limited by sv_maxspeed server side. And in CS this is limited by the per weapon speed. This should be equal to cl_backspeed and cl_forwardspeed or you will have problem holding forward and left at the same time for example.</td>
+        </tr>
+
+        <tr>
+          <td>cl_slist</td>
+          <td>10</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>connection</td>
+          <td>This is how many seconds to wait max for responses when doing a LAN slist ping. Responses coming in later than that are ignored.</td>
+        </tr>
+
+        <tr>
+          <td>cl_smoothtime</td>
+          <td>0.1</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>netcode</td>
+          <td>It defines the amount of time the view will be smoothly correct after a prediction error. If we set cl_smoothtime to 0 (or cl_nosmooth to 1), our interpolation wont be 'smoothed' or corrected and we will see the actual position of the players. Note that this will cause a jump in the players movements, but they will be correct.</td>
+        </tr>
+
+        <tr>
+          <td>cl_solid_players</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>netcode</td>
+          <td>Whether the movement prediction engine should treat other players as solid.</td>
+        </tr>
+
+        <tr>
+          <td>cl_timeout</td>
+          <td>300</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>connection</td>
+          <td>When you are inactive, it's after how many seconds the server disconnect you. This is also controled by sv_timeout (server side)</td>
+        </tr>
+
+        <tr>
+          <td>cl_updaterate</td>
+          <td>20</td>
+          <td>10</td>
+          <td>102</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>It's the number of updates per second you are requesting from the server.</td>
+        </tr>
+
+        <tr>
+          <td>cl_upspeed</td>
+          <td>320</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>movement</td>
+          <td>Sets the speed using the swim up / swim down keys(+moveup / +moveleft). This is limited by sv_maxspeed server side. And in CS this is limited by the per weapon speed.</td>
+        </tr>
+
+        <tr>
+          <td>cl_vsmoothing</td>
+          <td>0.05</td>
+          <td>0.0</td>
+          <td></td>
+          <td>float</td>
+          <td>netcode</td>
+          <td>This is called "View smoothing", enables interpolation between view vectors. It smooths/interpolates the view origin and angles when riding trains/plats. 0.05 should be good(if you have above 20 fps) and 0 disables it so it should increase your fps.</td>
+        </tr>
+
+        <tr>
+          <td>cl_waterdist</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>It compensates the view along the surface of water.</td>
+        </tr>
+
+        <tr>
+          <td>cl_weaponlistfix</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>netcode</td>
+          <td>It was to fix a bug in the original HL1 code related to the WeaponList usermessage  the message would just be ignored if this was set.</td>
+        </tr>
+
+        <tr>
+          <td>cl_weather</td>
+          <td>1</td>
+          <td>0</td>
+          <td>3</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Enables rain on de_aztec, 1 will cause a few rain drops, 2 will increase them, and 3 will cause a downpour.Disables it to improve performance.</td>
+        </tr>
+
+        <tr>
+          <td>cl_yawspeed</td>
+          <td>210</td>
+          <td>0</td>
+          <td></td>
+          <td>float</td>
+          <td>movement</td>
+          <td>Defines turn speed with +left and +right.</td>
+        </tr>
+
+        <tr>
+          <td>com_filewarning</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td> </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>console</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>This is not working in Steam, but in Won (the system before Steam) if you had this CVar on "0" you couldn't open the console.</td>
+        </tr>
+
+        <tr>
+          <td>con_color</td>
+          <td>255 180 30</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>Sets the color of chat messages. in RGB. In Won (the system before Steam), it was used to change the console text color as well.</td>
+        </tr>
+
+        <tr>
+          <td>con_fastmode</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td> </td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>con_notifytime</td>
+          <td>4</td>
+          <td>0</td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>The amount of time in seconds developer messages stay in the upper-left before disappear of the screen.</td>
+        </tr>
+
+        <tr>
+          <td>coop</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>This was to enable the cooperative mode in Quake. This is not working in HL1 because there is NO coop mod (not working in CS either because CS is multi player).</td>
+        </tr>
+
+        <tr>
+          <td>crosshair</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Enables the red dot at the middle of awp/scout/g3sg1/sg550 crosshairs.</td>
+        </tr>
+
+        <tr>
+          <td>c_maxdistance</td>
+          <td>200</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>This is the maximum distance of the camera in third person (see cam_command) using +camdistance (cmd).</td>
+        </tr>
+
+        <tr>
+          <td>c_maxpitch</td>
+          <td>90</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>This is the maximum pitch of the camera in third person (see cam_command) using +cammousemove (cmd).</td>
+        </tr>
+
+        <tr>
+          <td>c_maxyaw</td>
+          <td>135</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>This is the maximum yaw of the camera in third person (see cam_command) using +cammousemove (cmd).</td>
+        </tr>
+
+        <tr>
+          <td>c_mindistance</td>
+          <td>30</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>This is the minimum distance of the camera in third person (see cam_command) using +camdistance (cmd).</td>
+        </tr>
+
+        <tr>
+          <td>c_minyaw</td>
+          <td>-135</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>cheat</td>
+          <td>This is the minimum yaw of the camera in third person (see cam_command) using +cammousemove (cmd).</td>
+        </tr>
+
+        <tr>
+          <td>deathmatch</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It defines if the server is multi player (1) or single player (0). When you launch a listen or dedicated server, this is auto set to 1. This only stay on 0 if you launch a map by map "mapname" or you play HL single player.</td>
+        </tr>
+
+        <tr>
+          <td>decalfrequency</td>
+          <td>30</td>
+          <td>0</td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the frequency at which players can spray their logos. Amount is in seconds, 0 means no delay (spray as fast as you can).</td>
+        </tr>
+
+        <tr>
+          <td>default_fov</td>
+          <td>90</td>
+          <td>10</td>
+          <td>150</td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>Sets the field of view in Half-Life. In CS changing it only takes effect when zoomed out over your body in spectator mode after you die. Also this will mess with your sensitivity if you try to adjust it. In Half-Life this could be used to get a "zoom" effect even for a gun without a scope</td>
+        </tr>
+
+        <tr>
+          <td>developer</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>Enables developer mode. Developer mode can be used to show information on screen and prints advanced informations into console. Developer 2 gives more advanced informations than developer 1.</td>
+        </tr>
+
+        <tr>
+          <td>dev_overview</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>cheat</td>
+          <td>It shows the overview map created by the game. Used for mappers, to get overview image.</td>
+        </tr>
+
+        <tr>
+          <td>direct</td>
+          <td>0.9</td>
+          <td>0.75</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>video</td>
+          <td>Determines scaling of ambient/direct lighting on studio models.</td>
+        </tr>
+
+        <tr>
+          <td>displaysoundlist</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>If set, this shows the AI sound list to the console (only with developer 2).</td>
+        </tr>
+
+        <tr>
+          <td>d_mipcap</td>
+          <td>0</td>
+          <td>0</td>
+          <td>3</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets a maximum quality for all textures, close or far.0	High texture detail.1	Medium texture detail.2	Low texture detail.3	Minimum texture detail.</td>
+        </tr>
+
+        <tr>
+          <td>d_mipscale</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the maximum scaled quality of distant textures.0	Full object detail1	Some object detail2	Medium object detail3	Low object detailAnd i think you can go over 3.</td>
+        </tr>
+
+        <tr>
+          <td>d_spriteskip</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>It enables fast sprites rendering. It will skip rendering every N scanlines.</td>
+        </tr>
+
+        <tr>
+          <td>edgefriction</td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This is used to add slowdown when jumping off of an edge. When jumping off of a platform that is 70 units from the ground, the effect of edgefriction is greatly increased. When set higher, the force pulling you down is greater. (Gravity in a sense) </td>
+        </tr>
+
+        <tr>
+          <td>ex_interp</td>
+          <td>0.1</td>
+          <td>0.009</td>
+          <td>0.1</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>ex_interp sets the amount of time (in seconds) to interpolate in between each successive update(cl_updaterate).Set this variable to 0 and nothing else. Counter-Strike will automatically set your ex_interp to 1/cl_updaterate (i.e. your console will say: "ex_interp forced up to xx msec"). This is because the time in between each packet is exactly 1/(the # of updates per second), so this is how long you want your client to interpolate.</td>
+        </tr>
+
+        <tr>
+          <td>fakelag</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>cheat</td>
+          <td>Simulates lag when the value is higher than 0. Higher value is more lag.</td>
+        </tr>
+
+        <tr>
+          <td>fakeloss</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>cheat</td>
+          <td>Simulates loss when the value is higher than 0. Higher value is more loss, sv_cheats must be enabled for this to work. </td>
+        </tr>
+
+        <tr>
+          <td>fastsprites</td>
+          <td>1</td>
+          <td>0</td>
+          <td>2</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Defines quality of smokepuffs, 0 being the worst and 2 being the best. Set to lower quality to improve performance.</td>
+        </tr>
+
+        <tr>
+          <td>fps_max</td>
+          <td>72</td>
+          <td>20</td>
+          <td>1000</td>
+          <td>float</td>
+          <td>video</td>
+          <td>Set the maximum frames per second. You can only have over 100 if developer is 1 (on).</td>
+        </tr>
+
+        <tr>
+          <td>fps_modem</td>
+          <td>0</td>
+          <td>20</td>
+          <td>100</td>
+          <td>float</td>
+          <td>video</td>
+          <td>This is the old fps_max CVar for Internet. Leave this at 0 and use fps_max.</td>
+        </tr>
+
+        <tr>
+          <td>fs_lazy_precache</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>connection</td>
+          <td>Normally this toggle is disabled which in turn enables the game to load all of the necessary sound files for that specific map before the game starts. If this toggle is enabled the game will not preload the sound files during the start of the map, instead the sound files will only be loaded when they are necessary. The sound files will stay in memory after they are loaded in order to increase performance of the game by not having to reload the same sound files from the hard drive every time that the sound file is used.</td>
+        </tr>
+
+        <tr>
+          <td>fs_perf_warnings</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>developer</td>
+          <td>Controls printing of warnings about texture resampling. It needs developer to be 1 (On).</td>
+        </tr>
+
+        <tr>
+          <td>fs_precache_timings</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>developer</td>
+          <td>Perf printouts about sound and model loading. It needs developer to be 1 (On).</td>
+        </tr>
+
+        <tr>
+          <td>fs_startup_timings</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>developer</td>
+          <td>Controls a bunch of console spew about timings at startup time for the engine. It needs developer to be 1 (On).</td>
+        </tr>
+
+        <tr>
+          <td>gamma</td>
+          <td>2.5</td>
+          <td>1.8</td>
+          <td>3</td>
+          <td>float</td>
+          <td>video</td>
+          <td>Sets the gamma value.</td>
+        </tr>
+
+        <tr>
+          <td>gl_affinemodels</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Applies opengl perspective correction hints: e.g.: glHint (GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST); </td>
+        </tr>
+
+        <tr>
+          <td>gl_alphamin</td>
+          <td>0.25</td>
+          <td></td>
+          <td></td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>This controls how filtering of alpha-masked textures (gratings, fences, screen-door stuff) affects the appearance of edges. Higher values makes these items (i.e. the gratings,fences,etc.) look "skinnier", 1 makes them absolutely disappear.</td>
+        </tr>
+
+        <tr>
+          <td>gl_clear</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>If you enable gl_clear, it will clear the color-buffer. Basically, this means that when the camera can see into the void, either because of the map extending past the farclip plane or there is some kind of corruption of the map data. This is often used as a debugging tool as the 'gl_clear' color is red. It's used by Mappers to see if there are leaks in their maps. It seems that in D3D, it turns everything to red even if you are not outside the map.</td>
+        </tr>
+
+        <tr>
+          <td>gl_cull</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Enables opengl GL_CULL_FACE setting.</td>
+        </tr>
+
+        <tr>
+          <td>gl_d3dflip</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>This CVar have only a effect in D3D mode. It enable reversed rendering order. With nVidia Detonator 53.03 and gl_d3dflip 0, you can get a WH.If you are having mouse lags problems in D3D( most of time in smokes ), you can try gl_d3dflip 1, it will reduce the lag or fix it. </td>
+        </tr>
+
+        <tr>
+          <td>gl_dither</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>16 bit OpenGL rendering can use a form of dithering where the lack of colour depth is hidden by rounding different ways depending on the pixel being drawn. Setting to 0 can theoretically be faster or less hideous. Then again, it could look more bland. It depends on personal preference. It seems that at 32 bit it don't have effect on walls but only on sky.</td>
+        </tr>
+
+        <tr>
+          <td>gl_flipmatrix</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>It's a fix for your crosshair if you are using 3dfx drivers (Old video cards, example: Voodoo, Voodoo2, Rush or Banshee.) Maybe in CS 1.6 you can't even use 3dfx servers since there is no option like in 1.5 to enable it. If you use that with others drivers you'll get your AWP/Scout crosshair buggued. </td>
+        </tr>
+
+        <tr>
+          <td>gl_fog</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Turn On/Off the fog effect. This was made for CZ and not for 1.6 but it can work in 1.6. It only works in de_inferno_cz. But with this you can get a colored map (or make it work in all maps) : You must have -dev in the launch parameters and set cl_fog_density to 1 + cl_fog_r/cl_fog_r/cl_fog_g (those control the color). </td>
+        </tr>
+
+        <tr>
+          <td>gl_keeptjunctions</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Keep collinear points added by QCSG/QBSP to fix T-junctions. If you set it to 0 you will see cracks between some textures. </td>
+        </tr>
+
+        <tr>
+          <td>gl_lightholes</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Controls whether to apply lighting to surfaces with holes (not sure if this still actually works).</td>
+        </tr>
+
+        <tr>
+          <td>gl_max_size</td>
+          <td>512</td>
+          <td>256</td>
+          <td>512</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>The maximum pixel size which textures are loaded in. The value must be a multiple of 16 to prevent white textures, when a texture is larger than gl_max_size it will be cropped into that size, if that size isn't a multiple of 16 it will become a white texture. Although gl_max_size has no maximum value, a value of 512 is the most realistic maximum value of gl_max_size.</td>
+        </tr>
+
+        <tr>
+          <td>gl_monolights</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Create uniform light source, no shadows. (Can also be called FullBright). When a grenade explode in a area or you turn on your flashlight, the gamma of this area will go back to normal.</td>
+        </tr>
+
+        <tr>
+          <td>gl_nobind</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Toggles the replacement of textures with alphanumeric characters. Obsolete, not working in 1.6. </td>
+        </tr>
+
+        <tr>
+          <td>gl_nocolors</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Don't bind separately colored textures for players. Obsolete and not supported. </td>
+        </tr>
+
+        <tr>
+          <td>gl_overbright</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Saturated lighting. Makes lighting more natural and realistic. </td>
+        </tr>
+
+        <tr>
+          <td>gl_palette_tex</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Enable/disable support for paletted textures. If the GL driver you're using doesn't support the extension, this won't make any difference. But some cards support the extension poorly and support must be disabled using this variable. </td>
+        </tr>
+
+        <tr>
+          <td>gl_picmip</td>
+          <td>0</td>
+          <td>0</td>
+          <td>3</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Sets the rendering quality - * higher the number is faster but lower qualityDon't set it over 3 or cs will crash. </td>
+        </tr>
+
+        <tr>
+          <td>gl_playermip</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Sets the rendering quality to the models. Not supported. </td>
+        </tr>
+
+        <tr>
+          <td>gl_polyoffset</td>
+          <td>0.1/4</td>
+          <td>-0.001</td>
+          <td>25</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Amount of offset to apply to decals on polygons.</td>
+        </tr>
+
+        <tr>
+          <td>gl_reporttjunctions</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>This cvar doesn't have any effect.</td>
+        </tr>
+
+        <tr>
+          <td>gl_round_down</td>
+          <td>3</td>
+          <td>0</td>
+          <td>5</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This is the textures accuracy or the textures rounding. When textures need to be resized they are rounded up or down depending of this. Setting it to a low value SHOULD make the textures rendered more accurately and setting it to a high value SHOULD make the textures accuracy worse. I say "SHOULD" because it can depend of video card. The max value SHOULD be 5 but again it can depend of video card.</td>
+        </tr>
+
+        <tr>
+          <td>gl_spriteblend</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>It enabled alpha-blending on sprites. It's like the rendering quality to the sprites (gl_spriteblend 0 = bad quality), blood n stuffs.(0=more blood) </td>
+        </tr>
+
+        <tr>
+          <td>gl_wateramp</td>
+          <td>0.3</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>video</td>
+          <td>It amplifies the water's waves (in maps with water of course). This cvar can only be changed by sv_wateramp(Server Side).</td>
+        </tr>
+
+        <tr>
+          <td>gl_wireframe</td>
+          <td>0</td>
+          <td>0</td>
+          <td>3</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>gl_wireframe 1 does the former, placing glowing lines on each face that the engine is drawing which show how it is being split up. gl_wireframe 2 does the same thing, but the lines it creates can be seen through walls, thus allowing you to tell how much of the map is being drawn (including other areas that maybe should not be drawn!).gl_wireframe 1, then, is good for seeing how faces are being split etc. gl_wireframe 2 is best for seeing if your VIS blockers are actually working and stopping other areas from being drawn.This is used by mappers to see what is calculated to improve the performances of their maps.</td>
+        </tr>
+
+        <tr>
+          <td>gl_zmax</td>
+          <td>4096</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Sets max zbuffer size. This the max viewable distance. Setting it to 0 in D3D renderer makes you see through walls. Since people was cheating with it, VALVe added a protection and this cvar can now only be changed with sv_zmax ( Server Side ). </td>
+        </tr>
+
+        <tr>
+          <td>gl_ztrick</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Z-buffer half range, but no clears (saves fill rate). Enabling this might cause distant objects to flicker. If you want more fps, enable this. </td>
+        </tr>
+
+        <tr>
+          <td>graphheight</td>
+          <td>64</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>Sets the height of net_graph.</td>
+        </tr>
+
+        <tr>
+          <td>hisound</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>audio</td>
+          <td>Toggles high quality sound.</td>
+        </tr>
+
+        <tr>
+          <td>HostMap</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>When a map is changed with the "map" command, this cvar is set automatically to the map name. For multi player, this is only set when you launch the server  because the first map is launched using the command "map", but when changing map, "changelevel" is used.</td>
+        </tr>
+
+        <tr>
+          <td>hostname</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Sets the name of the server.</td>
+        </tr>
+
+        <tr>
+          <td>hostport</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the port to use for your server. This CVar has the same effect as the CVar "port" except that if "hostport" is not 0, it is used instead of "port".</td>
+        </tr>
+
+        <tr>
+          <td>host_framerate</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>This scales the clock, but only in single player or during demo playback (can be used for fast forward).</td>
+        </tr>
+
+        <tr>
+          <td>host_killtime</td>
+          <td>0</td>
+          <td>0</td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets a time delay before killing the server.</td>
+        </tr>
+
+        <tr>
+          <td>host_profile</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Displays the number of clients connected and their network latency.</td>
+        </tr>
+
+        <tr>
+          <td>host_speeds</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Displays Host FPS, network latency, transfer rates, rendering rates and number of entities for the map.</td>
+        </tr>
+
+        <tr>
+          <td>hpk_maxsize</td>
+          <td>1.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>connection</td>
+          <td>Defines the maximum size of custom.hpk in your cstrike folder, custom.hpk is used to store other players logos in. It's value is in MB, a value of 0 means no maximum size.</td>
+        </tr>
+
+        <tr>
+          <td>hud_capturemouse</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>If disabled, there is no mouse cursor in the command menu. This doesn't work in CS 1.6 and DoD 1.3 because the command menu no longer accept number binds. But this still work in HL, TFC and some others mods.</td>
+        </tr>
+
+        <tr>
+          <td>hud_centerid</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Toggles whether the player names are shown in the lower left corner or in the middle of the screen. Player name is shown when your aiming at another player. </td>
+        </tr>
+
+        <tr>
+          <td>hud_classautokill</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>If enabled, automatically kill yourself after choosing a new player class in TFC.</td>
+        </tr>
+
+        <tr>
+          <td>hud_deathnotice_time</td>
+          <td>6</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>Sets the amount of seconds death notices are shown.</td>
+        </tr>
+
+        <tr>
+          <td>hud_draw</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Enables drawing of the HUD.</td>
+        </tr>
+
+        <tr>
+          <td>hud_drawhistory_time</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>Sets the ammount of seconds HUD icons are shown. For example buy icons.</td>
+        </tr>
+
+        <tr>
+          <td>hud_fastswitch</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Toggles fast weapon switch. If on, then weapons switch immediately, when you press a number key(They must be bound to slotX commands). This has no effect when you're scrolling through your weapons(using invprev and invnext). </td>
+        </tr>
+
+        <tr>
+          <td>hud_saytext</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>It enables the in-game chat (Same as hud_saytext_internal for CS, CZ & DoD).</td>
+        </tr>
+
+        <tr>
+          <td>hud_saytext_internal</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>It enables the in-game chat. hud_saytext (cmd) toggles this CVar. This is only in CS, CZ & DoD.</td>
+        </tr>
+
+        <tr>
+          <td>hud_saytext_time</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>Sets the amount of seconds chat messages are shown.</td>
+        </tr>
+
+        <tr>
+          <td>hud_takesshots</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Enables taking snapshots at the end of maps.</td>
+        </tr>
+
+        <tr>
+          <td>humans_join_team</td>
+          <td>any</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>This is used for team restrictions. Set it to "any" to allow all teams (default), to "ct" to only allow Counter-Terrorists, and to "t" to only allow Terrorists.</td>
+        </tr>
+
+        <tr>
+          <td>ip</td>
+          <td>localhost</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>If the connection with steam server can't be make, you'll need to use this variable in the server command line specifying the server's ip.</td>
+        </tr>
+
+        <tr>
+          <td>joyadvanced</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>joystick</td>
+          <td>This enables the use of the advanced axes variables starting by joyadvaxisX where X is the axis letter.</td>
+        </tr>
+
+        <tr>
+          <td>joyadvaxisr</td>
+          <td>0</td>
+          <td>0</td>
+          <td>20</td>
+          <td>integer</td>
+          <td>joystick</td>
+          <td>Controls mapping of DirectInput axis R (typically joystick rudder).It can be set to the following controls:0 = Axis not used1 = Axis is for forward and backward movement2 = Axis is for looking up and down (pitch)3 = Axis is for side to side movement4 = Axis is for turning left and right (yaw)Additionally, it can be designated as an absolute axis (like a joystick) or a relative axis (like the FPgaming trackball or the WingMan Warrior SpinControl). Absolute axes are defined as having a stopping position whereas relative axes don't have a stopping position and just go around and around. To designate this axis as a relative axis, add 16 to the above control number.This will not have any effect until joyadvanced is set to 1.0.</td>
+        </tr>
+
+        <tr>
+          <td>joyadvaxisu</td>
+          <td>0</td>
+          <td>0</td>
+          <td>20</td>
+          <td>integer</td>
+          <td>joystick</td>
+          <td>Controls mapping of DirectInput axis U (custom axis).It can be set to the following controls:0 = Axis not used1 = Axis is for forward and backward movement2 = Axis is for looking up and down (pitch)3 = Axis is for side to side movement4 = Axis is for turning left and right (yaw)Additionally, it can be designated as an absolute axis (like a joystick) or a relative axis (like the FPgaming trackball or the WingMan Warrior SpinControl). Absolute axes are defined as having a stopping position whereas relative axes don't have a stopping position and just go around and around. To designate this axis as a relative axis, add 16 to the above control number. </td>
+        </tr>
+
+        <tr>
+          <td>joyadvaxisv</td>
+          <td>0</td>
+          <td>0</td>
+          <td>20</td>
+          <td>integer</td>
+          <td>joystick</td>
+          <td>Controls mapping of DirectInput axis V (custom axis).It can be set to the following controls:0 = Axis not used1 = Axis is for forward and backward movement2 = Axis is for looking up and down (pitch)3 = Axis is for side to side movement4 = Axis is for turning left and right (yaw)Additionally, it can be designated as an absolute axis (like a joystick) or a relative axis (like the FPgaming trackball or the WingMan Warrior SpinControl). Absolute axes are defined as having a stopping position whereas relative axes don't have a stopping position and just go around and around. To designate this axis as a relative axis, add 16 to the above control number. </td>
+        </tr>
+
+        <tr>
+          <td>joyadvaxisx</td>
+          <td>0</td>
+          <td>0</td>
+          <td>20</td>
+          <td>integer</td>
+          <td>joystick</td>
+          <td>Controls mapping of DirectInput axis X (typically joystick left and right). It can be set to the following controls:0 = Axis not used1 = Axis is for forward and backward movement2 = Axis is for looking up and down (pitch)3 = Axis is for side to side movement4 = Axis is for turning left and right (yaw)Additionally, it can be designated as an absolute axis (like a joystick) or a relative axis (like the FPgaming trackball or the WingMan Warrior SpinControl).  Absolute axes are defined as having a stopping position whereas relative axes don't have a stopping position and just go around and around.  To designate this axis as a relative axis, add 16 to the above control number. This will not have any effect until joyadvanced is set to 1.0. </td>
+        </tr>
+
+        <tr>
+          <td>joyadvaxisy</td>
+          <td>0</td>
+          <td>0</td>
+          <td>20</td>
+          <td>integer</td>
+          <td>joystick</td>
+          <td>Controls mapping of DirectInput axis Y (typically joystick forward and backward).It can be set to the following controls:0 = Axis not used1 = Axis is for forward and backward movement2 = Axis is for looking up and down (pitch)3 = Axis is for side to side movement4 = Axis is for turning left and right (yaw)Additionally, it can be designated as an absolute axis (like a joystick) or a relative axis (like the FPgaming trackball or the WingMan Warrior SpinControl).  Absolute axes are defined as having a stopping position whereas relative axes don't have a stopping position and just go around and around.  To designate this axis as a relative axis, add 16 to the above control number. This will not have any effect until joyadvanced is set to 1.0. </td>
+        </tr>
+
+        <tr>
+          <td>joyadvaxisz</td>
+          <td>0</td>
+          <td>0</td>
+          <td>20</td>
+          <td>integer</td>
+          <td>joystick</td>
+          <td>Controls mapping of DirectInput axis Z (typically joystick throttle).It can be set to the following controls:0 = Axis not used1 = Axis is for forward and backward movement2 = Axis is for looking up and down (pitch)3 = Axis is for side to side movement4 = Axis is for turning left and right (yaw)Additionally, it can be designated as an absolute axis (like a joystick) or a relative axis (like the FPgaming trackball or the WingMan Warrior SpinControl).  Absolute axes are defined as having a stopping position whereas relative axes don't have a stopping position and just go around and around.  To designate this axis as a relative axis, add 16 to the above control number. This will not have any effect until joyadvanced is set to 1.0. </td>
+        </tr>
+
+        <tr>
+          <td>joyforwardsensitivity</td>
+          <td>-1.0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the ramp-up speed or how much joystick movement is required for moving "full speed" forward and backward.</td>
+        </tr>
+
+        <tr>
+          <td>joyforwardthreshold</td>
+          <td>0.15</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the dead-zone for moving forward and backward.</td>
+        </tr>
+
+        <tr>
+          <td>joypitchsensitivity</td>
+          <td>1.0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the speed or ratio used when you look up and down.</td>
+        </tr>
+
+        <tr>
+          <td>joypitchthreshold</td>
+          <td>0.15</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the dead-zone for looking up and down.</td>
+        </tr>
+
+        <tr>
+          <td>joysidesensitivity</td>
+          <td>-1.0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the ramp-up speed or how much joystick movement is required for moving "full speed" side to side.</td>
+        </tr>
+
+        <tr>
+          <td>joysidethreshold</td>
+          <td>0.15</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the dead-zone for moving side to side.</td>
+        </tr>
+
+        <tr>
+          <td>joystick</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>joystick</td>
+          <td>Enables the use of a joystick.</td>
+        </tr>
+
+        <tr>
+          <td>joywwhack1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>joystick</td>
+          <td>This is one of the two variables which enable special response curves tuned for the Logitech Wingman Warrior joystick.  When enabled, this fixes a centering problem.</td>
+        </tr>
+
+        <tr>
+          <td>joywwhack2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>joystick</td>
+          <td>This is one of the two variables which enable special response curves tuned for the Logitech Wingman Warrior joystick.  When enabled, this fixes an "out of control" spin problem when using the joystick to turn or look left/right.</td>
+        </tr>
+
+        <tr>
+          <td>joyyawsensitivity</td>
+          <td>-1</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the speed that or ratio used when you look left to right.</td>
+        </tr>
+
+        <tr>
+          <td>joyyawthreshold</td>
+          <td>0.15</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>joystick</td>
+          <td>Controls the dead-zone for looking left and right.</td>
+        </tr>
+
+        <tr>
+          <td>lambert</td>
+          <td>1.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>video</td>
+          <td>Sets the lambert level. Lambert is the player models lighting.</td>
+        </tr>
+
+        <tr>
+          <td>lightgamma</td>
+          <td>2.5</td>
+          <td>1.9</td>
+          <td>2.5</td>
+          <td>float</td>
+          <td>video</td>
+          <td>Sets the in game lightgamma. It has a protection to be forced to 2.5 when connecting to a server, but it's like a "broken" protection because the gamma is set before the protection is set, so you can still change this before connecting to a server. When a grenade explode in a area or you turn on your flashlight, the gamma of this area will go back to normal. If changed, it might crash the game. **Paft edit: Actually, yes, 0 used to be lowest and now crashes the game, but 1.9 is the new low.**</td>
+        </tr>
+
+        <tr>
+          <td>loadas8bit</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>audio</td>
+          <td>Toggles the use of 8 bit sound, which is lowest quality. On = 8 Bit. Off = 16 Bit.</td>
+        </tr>
+
+        <tr>
+          <td>logsdir</td>
+          <td>logs</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Defines the directory where the server logs will be created with the "log" command.</td>
+        </tr>
+
+        <tr>
+          <td>lookspring</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>mouse</td>
+          <td>Enables automatic view centering when Mouse Look is disabled (-mlook). It should be set during mouse look is enabled(+mlook). It also disable the up and down mouse movements.</td>
+        </tr>
+
+        <tr>
+          <td>lookstrafe</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>mouse</td>
+          <td>When enabled, the left/right mouse movements make you strafe instead of turn.</td>
+        </tr>
+
+        <tr>
+          <td>lservercfgfile</td>
+          <td>listenserver.cfg</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Sets the config file which is loaded when the listen server start.</td>
+        </tr>
+
+        <tr>
+          <td>mapchangecfgfile</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>This sets the config file which is loaded at each map change.</td>
+        </tr>
+
+        <tr>
+          <td>mapcyclefile</td>
+          <td>mapcycle.txt</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>This sets the file which will be used for the map cycle.</td>
+        </tr>
+
+        <tr>
+          <td>max_queries_sec</td>
+          <td>0.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>It's part of the rate limiting code to Out-Of-Band queries (i.e. players, info). It defines max queries per second per user (averaged over max_queries_window).</td>
+        </tr>
+
+        <tr>
+          <td>max_queries_sec_global</td>
+          <td>10</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It's part of the rate limiting code to Out-Of-Band queries (i.e. players, info). It defines max queries per second for all queries.</td>
+        </tr>
+
+        <tr>
+          <td>max_queries_window</td>
+          <td>30</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It's part of the rate limiting code to Out-Of-Band queries (i.e. players, info). It defines time window to average query rates over.</td>
+        </tr>
+
+        <tr>
+          <td>max_shells</td>
+          <td>120</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Maximum number of shells which can go out of all other player's weapon's at one time.</td>
+        </tr>
+
+        <tr>
+          <td>max_smokepuffs</td>
+          <td>120</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Maximum number of smoke puffs that go out the smoke grenades and your bullets (on the wall) at one time.</td>
+        </tr>
+
+        <tr>
+          <td>model</td>
+          <td>barney</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>video</td>
+          <td>Sets your model in Half-Life. Valid models names: barney, gina, gman, gordon, helmet, hgrunt, recon, robo, scientist, zombie.</td>
+        </tr>
+
+        <tr>
+          <td>motdfile</td>
+          <td>motd.html</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Sets the file to use as message of the day (welcome screen). </td>
+        </tr>
+
+        <tr>
+          <td>MP3FadeTime</td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>audio</td>
+          <td>This is how much seconds a mp3 will take to fade completely out using the "cd fadeout" command.</td>
+        </tr>
+
+        <tr>
+          <td>MP3Volume</td>
+          <td>0.8</td>
+          <td>0</td>
+          <td></td>
+          <td>float</td>
+          <td>audio</td>
+          <td>Sets the Mp3's volume level. </td>
+        </tr>
+
+        <tr>
+          <td>mp_allowmonsters</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Allow or not the spawning of monsters in multiplayer. (Half-Life only)</td>
+        </tr>
+
+        <tr>
+          <td>mp_autocrosshair</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>If sv_aim is 1, this enables the red crosshair in multiplayer.</td>
+        </tr>
+
+        <tr>
+          <td>mp_autokick</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enable automatic team-killer banning and idle client kicking.</td>
+        </tr>
+
+        <tr>
+          <td>mp_autoteambalance</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Toggles auto balancing of teams.</td>
+        </tr>
+
+        <tr>
+          <td>mp_buytime</td>
+          <td>1.5</td>
+          <td>0.25</td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>Designate the desired amount of buy time for each round.</td>
+        </tr>
+
+        <tr>
+          <td>mp_c4timer</td>
+          <td>45</td>
+          <td>15</td>
+          <td>90</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>C4 timer duration. Minimum of 15, maximum of 90. Value should be 35 sec in matches.</td>
+        </tr>
+
+        <tr>
+          <td>mp_chattime</td>
+          <td>10</td>
+          <td>1</td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Amount of time in seconds players can chat after the game is over.</td>
+        </tr>
+
+        <tr>
+          <td>mp_consistency</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>This checks to see that the client connecting has not modified his models or sounds in order to give him an unfair advantage. For some models, it check only the size, to see if it don't exceed the hitboxes. But this doesn't check all models/sounds/... Some exploitable one are still here like the smoke sprite. (to gain no smoke)</td>
+        </tr>
+
+        <tr>
+          <td>mp_decals</td>
+          <td>300</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the maximum decals (Spray logo, bullet holes, grenade scorch, blood on ground) VISIBLE on the screen. It has to be set before connection to server. It's not the same as r_decals.</td>
+        </tr>
+
+        <tr>
+          <td>mp_defaultteam</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>If this is set to 1, then players are forced on to the first team (team index 0) when they join. Otherwise, they are forced to join the team with fewest players. If they are forced to join the first team by the map (mp_defaultteam 1), then players are not allowed to change teams during that map (unless the map changes their team for them). This is one of the map properties, so the map will automatically set the cvar value depending of what the mapper chose.</td>
+        </tr>
+
+        <tr>
+          <td>mp_fadetoblack</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>When set to 1, player's screen fades to black for the remainder of the round when he dies (hud still works normally so player can chat and see the scores, etc.) Overrides mp_forcechasecam</td>
+        </tr>
+
+        <tr>
+          <td>mp_falldamage</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enables realistic fall damage in Half-Life.</td>
+        </tr>
+
+        <tr>
+          <td>mp_flashlight</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Set to 1 to enable the use of flashlights, 0 to disable.</td>
+        </tr>
+
+        <tr>
+          <td>mp_footsteps</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Set to 1 to enable footsteps, 0 to disable. </td>
+        </tr>
+
+        <tr>
+          <td>mp_forcecamera</td>
+          <td>0</td>
+          <td>0</td>
+          <td>3</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This cvar was added in CS 1.4, and seems to be exactly the same as mp_forcechasecam. If mp_forcecamera and mp_forcechasecam are both set to an other value than 0, mp_forcecamera will be ignored and mp_forcechasecam value will be used instead.0 You can spectate anyone1 You can spectate teammates only + No Free Look 2 Only first person mode is allowed3 You can spectate teammates only (Free Look works)</td>
+        </tr>
+
+        <tr>
+          <td>mp_forcechasecam</td>
+          <td>0</td>
+          <td>0</td>
+          <td>3</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This cvar seems to be exactly the same as mp_forcechasecam. If mp_forcecamera and mp_forcechasecam are both set to an other value than 0, mp_forcecamera will be ignored and mp_forcechasecam value will be used instead.0 You can spectate anyone1 You can spectate teammates only + No Free Look 2 Only first person mode is allowed3 You can spectate teammates only (Free Look works)</td>
+        </tr>
+
+        <tr>
+          <td>mp_forcerespawn</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>If enabled, players will automatically respawn when killed.</td>
+        </tr>
+
+        <tr>
+          <td>mp_fraglimit</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>If set to something other than 0, when anybodys scored reaches mp_fraglimit the server changes map.</td>
+        </tr>
+
+        <tr>
+          <td>mp_fragsleft</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>mp_fragsleft is the number of frags left, if you have set mp_fraglimit. You just type mp_fragsleft in server console, and it tells you the number of frags left depending of mp_fraglimit.NOTE: mp_fraglimit doesn't exist in CS, and seems to only work in Half-Life.</td>
+        </tr>
+
+        <tr>
+          <td>mp_freezetime</td>
+          <td>6</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>The length in seconds of the Freeze period at the beginning of rounds. Set to 0 to disable.</td>
+        </tr>
+
+        <tr>
+          <td>mp_friendlyfire</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Set to 1 to enable friendly fire, 0 to disable.</td>
+        </tr>
+
+        <tr>
+          <td>mp_ghostfrequency</td>
+          <td>0.1</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>Ghost update period. How long in seconds until the next update. In cs beta 5.0, you could see the free-look spectators moving when you were dead (they were called ghosts). But the ghosts were removed after. This cvar doesn't have any effect now.</td>
+        </tr>
+
+        <tr>
+          <td>mp_hostagepenalty</td>
+          <td>13</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Max. number of hostages you can kill before the server boots you out... setting this to 0 will shut off this command.</td>
+        </tr>
+
+        <tr>
+          <td>mp_kickpercent</td>
+          <td>0.66</td>
+          <td>0.0</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>server</td>
+          <td>Sets the percentage of teammates it takes to vote off a player.</td>
+        </tr>
+
+        <tr>
+          <td>mp_limitteams</td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Maximum number of players that one team can have over the other. To entirely disable team limiting, set to 0.</td>
+        </tr>
+
+        <tr>
+          <td>mp_logdetail</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Bitwise cvar to set the level of detail for logging attacks "mp_logdetail 0"   » Log no attacks"mp_logdetail 1"   » Log enemy attacks"mp_logdetail 2"   » Log teammate attacks"mp_logdetail 3"   » Log enemy AND teammate attacks</td>
+        </tr>
+
+        <tr>
+          <td>mp_logecho</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>If enables, server log messages are being displayed into server console.</td>
+        </tr>
+
+        <tr>
+          <td>mp_logfile</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enables the logging of server console into a file in logs/ folder.</td>
+        </tr>
+
+        <tr>
+          <td>mp_logmessages</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Used for server admins to spit out chat messages in their log files.</td>
+        </tr>
+
+        <tr>
+          <td>mp_mapvoteratio</td>
+          <td>0.66</td>
+          <td>0.0</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>server</td>
+          <td>Set the ratio of players required to vote on the same map before a map will change. The default is 0.66 , which means that 66% of the players on a server must vote on the same map in order for the server to change to that map.</td>
+        </tr>
+
+        <tr>
+          <td>mp_maxrounds</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Maximum number of rounds to be played on a map, leave at 0 to obey mp_timelimit.</td>
+        </tr>
+
+        <tr>
+          <td>mp_mirrordamage</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>This CVar doesn't have any effect. It's in CS since the first betas versions. It's not even in the CS Manual part with CS Specific cvars. This was probably going to be a function for when you attack teammates, it mirrors the damages on you and they take no damage. The original creators of CS, probably didn't finish the code of it or forget about it.</td>
+        </tr>
+
+        <tr>
+          <td>mp_playerid</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Toggles what information players see in the status bar0 everyone: players see all names listed in the status bar (with appropriateteam colors)1 team only: players only see names for their teammates and hostages in thestatus bar2 off: players do not see any names in the status bar (hostages included)</td>
+        </tr>
+
+        <tr>
+          <td>mp_roundtime</td>
+          <td>5</td>
+          <td>1</td>
+          <td>9</td>
+          <td>float</td>
+          <td>server</td>
+          <td>Min round time is 1 min. Max round time is 9 min. Supports partial minutes (1.5 is 90 seconds).</td>
+        </tr>
+
+        <tr>
+          <td>mp_startmoney</td>
+          <td>16000</td>
+          <td>0</td>
+          <td>16000</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the amount of money players start with.</td>
+        </tr>
+
+        <tr>
+          <td>mp_teamlist</td>
+          <td>robo;hgrunt</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>This defines the team names in HLDM depending of the models. Put nothing to allow all teams. List of valid team names: barney, gina, gman, gordon, helmet, hgrunt, recon, robo, scientist, zombie</td>
+        </tr>
+
+        <tr>
+          <td>mp_teamoverride</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Allows maps to override the server's mp_teamlist.</td>
+        </tr>
+
+        <tr>
+          <td>mp_timeleft</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>mp_timeleft is the number of time left before the map changes, if you have set mp_timelimit. You just type mp_timeleft in server console, and it tells you the number of time left depending of mp_timelimit.NOTE: mp_timeleft only work in Half-Life. It's useless in CS because of the client console command "timeleft" which do exactly the same.</td>
+        </tr>
+
+        <tr>
+          <td>mp_timelimit</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Period between map rotations.</td>
+        </tr>
+
+        <tr>
+          <td>mp_tkpunish</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>If set to 1, TK'ers will be auto-killed next round.</td>
+        </tr>
+
+        <tr>
+          <td>mp_weaponstay</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>This forces weapons to immediately respawn after one player has picked them up, allowing the next player to be able to immediately grab weapons.</td>
+        </tr>
+
+        <tr>
+          <td>mp_windifference</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It is used by CS for determining delta between T and CT wins for applying victory logic.</td>
+        </tr>
+
+        <tr>
+          <td>mp_winlimit</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Will cycle the map after one team reaches this many wins.</td>
+        </tr>
+
+        <tr>
+          <td>m_filter</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>mouse</td>
+          <td>Toggles mouse filter. Mouse filter smooths out mouse movements.</td>
+        </tr>
+
+        <tr>
+          <td>m_forward</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>mouse</td>
+          <td>It defines how fast you move forward/backward while moving your mouse. It Needs Mouse Look disabled to move forward/backward with your mouse.</td>
+        </tr>
+
+        <tr>
+          <td>m_pitch</td>
+          <td>0.022</td>
+          <td>0.022</td>
+          <td>0.022</td>
+          <td>float</td>
+          <td>mouse</td>
+          <td>Sets the sensitivity ratio of up and down mouse movements. Negative numbers causes inverted mouse movements. This can't be changed except from the options menu with "Reverted Mouse" who sets m_pitch to -0.022</td>
+        </tr>
+
+        <tr>
+          <td>m_side</td>
+          <td>0.8</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>mouse</td>
+          <td>It defines how fast you strafe while moving your mouse. It Needs lookstrafe 1 and Mouse Look Enabled(+mlook) to strafe with your mouse.</td>
+        </tr>
+
+        <tr>
+          <td>m_yaw</td>
+          <td>0.022</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>mouse</td>
+          <td>Sets the sensitivity ratio of left and right mouse movements. Negative numbers causes inverted mouse movements.</td>
+        </tr>
+
+        <tr>
+          <td>name</td>
+          <td>Player</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td></td>
+          <td>Sets your name. </td>
+        </tr>
+
+        <tr>
+          <td>net_graph</td>
+          <td>0</td>
+          <td>0</td>
+          <td>3</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>Enables the use of a net_graph. It displays information about your settings, ping, fps, etc. dependent on the type of net graph. For more information read this </td>
+        </tr>
+
+        <tr>
+          <td>net_graphpos</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>Sets the position of net_graph. 0 = right, 1 = center, 2 = left</td>
+        </tr>
+
+        <tr>
+          <td>net_graphwidth</td>
+          <td>192</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>Sets the width of net_graph. Higher number is wider net_graph.</td>
+        </tr>
+
+        <tr>
+          <td>net_scale</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>Sets the amount of bytes shown per pixel in net_graph.</td>
+        </tr>
+
+        <tr>
+          <td>net_showdrop</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>connection</td>
+          <td>Shows a message in console when a packet is dropped. This is for both client and server.</td>
+        </tr>
+
+        <tr>
+          <td>net_showpackets</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>connection</td>
+          <td>Shows incoming/outgoing packets. This is for both client and server.</td>
+        </tr>
+
+        <tr>
+          <td>nosound</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>Sound</td>
+          <td>Should disable all sound, except for certain sounds like the footstep sound when a bullet ricochets.</td>
+        </tr>
+
+        <tr>
+          <td>password</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>connection</td>
+          <td>Sets the password of the server you want to connect to. This cvar is changed automatically when you enter a passworded server by the server browser.</td>
+        </tr>
+
+        <tr>
+          <td>pausable</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Allow or not the players to pause the game using the pause command.</td>
+        </tr>
+
+        <tr>
+          <td>port</td>
+          <td>27015</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the port to use for your server.</td>
+        </tr>
+
+        <tr>
+          <td>rate</td>
+          <td>20000</td>
+          <td>1000</td>
+          <td>20000</td>
+          <td>integer</td>
+          <td>netcode</td>
+          <td>This is how many bytes per seconds the server send to the client. For internet games only (sv_lan 0), except if sv_lan_rate < 1001 on a LAN game (sv_lan 1).</td>
+        </tr>
+
+        <tr>
+          <td>rcon_address</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>connection</td>
+          <td>This is to allow clients to remotely connect to a server/HLTV and use the rcon commands without even being in-game. Set it to the server's IP without the port-number (1.2.3.4).</td>
+        </tr>
+
+        <tr>
+          <td>rcon_password</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>It sets the rcon password on the server for the administrators to be able to use admins commands/cvars. The administrators have also to set rcon_password in their client console to be able to use admins commands/cvars with the rcon command.</td>
+        </tr>
+
+        <tr>
+          <td>rcon_port</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>connection</td>
+          <td>The port that a client can connect remote to a server through. See rcon_address.</td>
+        </tr>
+
+        <tr>
+          <td>room_type</td>
+          <td>0</td>
+          <td>0</td>
+          <td>28</td>
+          <td>integer</td>
+          <td>sound</td>
+          <td>Mappers use this to make echos in their map, this is changed automatically when the player enters in a zone with the env_sound entity. Different values: 0 = Normal (off)1 = Generic2 = Metal Small3 = Metal Medium4 = Metal Large5 = Tunnel Small6 = Tunnel Medium7 = Tunnel Large8 = Chamber Small9 = Chamber Medium	10 = Chamber Large11 = Bright Small12 = Bright Medium13 = Bright Large14 = Water 115 = Water 216 = Water 317 = Concrete Small18 = Concrete Medium19 = Concrete Large	20 = Big 121 = Big 222 = Big 323 = Cavern Small24 = Cavern Medium25 = Cavern Large26 = Weirdo 127 = Weirdo 228 = Weirdo 3</td>
+        </tr>
+
+        <tr>
+          <td>r_aliastransadj</td>
+          <td>100</td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td>video</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>r_aliastransbase</td>
+          <td>200</td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td>video</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>r_ambient_b</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Artificially shifts the lighting of the current world by the value to blue.</td>
+        </tr>
+
+        <tr>
+          <td>r_ambient_g</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Artificially shifts the lighting of the current world by the value to green.</td>
+        </tr>
+
+        <tr>
+          <td>r_ambient_r</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Artificially shifts the lighting of the current world by the value to red.</td>
+        </tr>
+
+        <tr>
+          <td>r_bmodelhighfrac</td>
+          <td>5.0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>video</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>r_bmodelinterp</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Controls whether moving brush models interpolate their positions (smooths presentation).</td>
+        </tr>
+
+        <tr>
+          <td>r_cachestudio</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Determines whether to cache studio model hulls for quicker tests  the cache has a limited size/lifespan. This is a perf optimization.</td>
+        </tr>
+
+        <tr>
+          <td>r_cullsequencebox</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>In multiplayer, if set then instead of just testing of bbox is on back side of viewer, we check the entire frustum for the current animations extents (sequence box).</td>
+        </tr>
+
+        <tr>
+          <td>r_decals</td>
+          <td>4096</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the decals (Spray logo, bullet holes, grenade scorch, blood on ground) limit. If higher than mp_decals, it will be set to mp_decals value (It's reset to mp_decals value when connecting to server). It's not the same as mp_decals.</td>
+        </tr>
+
+        <tr>
+          <td>r_detailtextures</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Turn on/off Detailed Textures. In cs 1.6 by default there are detailed textures only for Cobble. </td>
+        </tr>
+
+        <tr>
+          <td>r_drawentities</td>
+          <td>1</td>
+          <td>0</td>
+          <td>5</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Controls drawing of entities/models.0 = no entities1 = Default and draws entities normally2 = entities drawn as skeletons3 = entities drawn each bone having a bounding box4 = entities drawn with box5 = individual box for player and weapon NOTE: works only in SOFTWARE-mode D3D/OpenGL : Single Player OnlySoftWare : Multi Player</td>
+        </tr>
+
+        <tr>
+          <td>r_drawflat</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>With "r_drawflat 1", we see how the engine has to break up the surfaces to draw them. I think it's used by mappers. </td>
+        </tr>
+
+        <tr>
+          <td>r_draworder</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>WallHack that show what is calculated through walls, used by mappers to improve map performances. </td>
+        </tr>
+
+        <tr>
+          <td>r_drawviewmodel</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Toggle the view of the weapon model.</td>
+        </tr>
+
+        <tr>
+          <td>r_dspeeds</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>0 = Do not display renderer speed statistics.1 = Display renderer speed statistics.(Need developer 1) </td>
+        </tr>
+
+        <tr>
+          <td>r_dynamic</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Dynamic lighting is when lighted objects create projections on the walls or objects around them(example: rockets in half-life). You will gain performance by disabling this. But since a HL update it's locked to 1 in multi-player. </td>
+        </tr>
+
+        <tr>
+          <td>r_fullbright</td>
+          <td>0</td>
+          <td>0</td>
+          <td>4</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Setting this to "1" means no lightmaps and would render all textures without any dynamic shadings/lighting (so what you get are brightly lit textures, so much so that even the flashlight's beam is invisible).Setting to "2" would mean only lightmaps (all models are gouraud-shaded minus textures).NOTE : THE PARTICULAR VALUES ARE NOT FOR OPENGL, ONLY FOR SOFTWARE MODE.Okay, this might be useful for mappers.Setting to "3" means only lightmaps but with offset grid.Setting to "4" is like "3" but would also show the mip level of each surface relative to the player. </td>
+        </tr>
+
+        <tr>
+          <td>r_glowshellfreq</td>
+          <td>2.2</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the glowing frequency of player models. Player models are glowed by server plugins. For example the respawn protection in deathmatch.</td>
+        </tr>
+
+        <tr>
+          <td>r_graphheight</td>
+          <td>10</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Adjusts height of graph. See r_timegraph </td>
+        </tr>
+
+        <tr>
+          <td>r_lightmap</td>
+          <td>0/-1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>I only get a effect with this cvar in D3D and Software:D3D: r_lightmap -1 or 1 = White Walls.Software:r_lightmap 1 = Remove all the lights of the map, what you just see is the sky.</td>
+        </tr>
+
+        <tr>
+          <td>r_lightstyle</td>
+          <td>-1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>r_lightstyle 1 remove all the lights of the maps, but you can still see ennemies and sky. </td>
+        </tr>
+
+        <tr>
+          <td>r_luminance</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>r_luminance 1 makes all the map look blue/green. </td>
+        </tr>
+
+        <tr>
+          <td>r_maxedges</td>
+          <td>7200</td>
+          <td>7200</td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This variable sets the maximum number of plane surface edges to be rendered.</td>
+        </tr>
+
+        <tr>
+          <td>r_maxsurfs</td>
+          <td>2000</td>
+          <td>2000</td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This variable sets the maximum number of plane surfaces to be rendered.</td>
+        </tr>
+
+        <tr>
+          <td>r_mirroralpha</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Mirror reflection effect. Obsolete and not supported. </td>
+        </tr>
+
+        <tr>
+          <td>r_mmx</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>This turns on the MMX optimizations. MMX is autodetected (1 = on, 0 = off), but you can force it on or off with this. </td>
+        </tr>
+
+        <tr>
+          <td>r_norefresh</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Disables the refreshing of the world and HUD.</td>
+        </tr>
+
+        <tr>
+          <td>r_novis</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>First you have to know what is VIS:VIS is short for Visible Information Set. This generates what can and can't be seen from certain locations in the map. Half-Life will then use this information when running the game to help speed up rendering, by only drawing what the player can see.If r_novis is 1 (enabled), it would disable the VIS and would calculate everything in the map like the player can see everything. You can try with gl_wireframe 2 to see the effect.</td>
+        </tr>
+
+        <tr>
+          <td>r_numedges</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Shows number of edges displayed at a time. </td>
+        </tr>
+
+        <tr>
+          <td>r_numsurfs</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Shows number of brush planes displayed at a time. </td>
+        </tr>
+
+        <tr>
+          <td>r_polymodelstats</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Displays number of polygon models shown</td>
+        </tr>
+
+        <tr>
+          <td>r_reportedgeout</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>It toggles the display of how many edges where not displayed. Only works with developer 1.</td>
+        </tr>
+
+        <tr>
+          <td>r_reportsurfout</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>It toggles the display of how many surfaces where not displayed. Only works with developer 1.</td>
+        </tr>
+
+        <tr>
+          <td>r_speeds</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Used by mappers to see the epoly and wpoly value for map performances. </td>
+        </tr>
+
+        <tr>
+          <td>r_timegraph</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Toggles display of graph showing time to draw screen. It's like net_graph but for FPS only. </td>
+        </tr>
+
+        <tr>
+          <td>r_traceglow</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Turns on the occlusion calculations. If enabled, light halos (made by env_glow entity) and some explosions sprites won't be seen through AI Players (hostages in CS, scientists and monsters in HL) when behind them.</td>
+        </tr>
+
+        <tr>
+          <td>r_wadtextures</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>r_wadtextures is used for enabling wether or not to allow included wad textures. </td>
+        </tr>
+
+        <tr>
+          <td>r_wateralpha</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>r_wateralpha 1 enables water alpha-blending(the default). To disable it (0), r_novis must be on. Disabling would allow you to see, from above water, everything beneath the surface of water (which in effect renders the water surface absolutely transparent.) This doesn't work with Half-Life 1 Engine. To get transparent water, mappers have to use the func_water entity.</td>
+        </tr>
+
+        <tr>
+          <td>r_waterwarp</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>If 0 then there is no wave effect while being under water.Use 0 for more visibility in water. </td>
+        </tr>
+
+        <tr>
+          <td>scr_centertime</td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>The amount of time in seconds that center-screen messages stay up. (Example: "Terrorists Win!" message). Note that this only works if set before a message is printed, but not while it is on the screen. </td>
+        </tr>
+
+        <tr>
+          <td>scr_connectmsg</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>This is the first line of a small message in white text that is drawn on a black box at the bottom center of your screen. It is usually only visible while connecting to servers since everything is drawn over-top of it. Also visible with r_norefresh 1 or when clipping outside of the map. Depending on your hand model when disconnecting from a server, it may only be partially visible when connecting to another. </td>
+        </tr>
+
+        <tr>
+          <td>scr_connectmsg1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>The second line of the Connnect-Message box. See scr_connectmsg. </td>
+        </tr>
+
+        <tr>
+          <td>scr_connectmsg2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>interface</td>
+          <td>The third line of the Connnect-Message box. See scr_connectmsg.</td>
+        </tr>
+
+        <tr>
+          <td>scr_conspeed</td>
+          <td>600</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>interface</td>
+          <td>It sets the speed at which the console drops into view when the player presses the console key. This no longer works in 1.6 because the console no longer drops into view.</td>
+        </tr>
+
+        <tr>
+          <td>scr_ofsx</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This sets your view origin offset on the X axis.</td>
+        </tr>
+
+        <tr>
+          <td>scr_ofsy</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This sets your view origin offset on the Y axis.</td>
+        </tr>
+
+        <tr>
+          <td>scr_ofsz</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This sets your view origin offset on the Z axis.</td>
+        </tr>
+
+        <tr>
+          <td>sensitivity</td>
+          <td>3</td>
+          <td>1</td>
+          <td>20</td>
+          <td>float</td>
+          <td>mouse</td>
+          <td>Sets the sensitivity of the mouse.</td>
+        </tr>
+
+        <tr>
+          <td>servercfgfile</td>
+          <td>server.cfg</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Sets the config file which is loaded when the server start. Only for dedicated servers.</td>
+        </tr>
+
+        <tr>
+          <td>skill</td>
+          <td>1</td>
+          <td>1</td>
+          <td>3</td>
+          <td>integer</td>
+          <td> </td>
+          <td>Sets the difficulty setting in Half-Life single player mode (this is automatically set when you choose the difficulty on the new game menu). 1 : Easy2 : Medium3 : Hard</td>
+        </tr>
+
+        <tr>
+          <td>sk_*</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td> </td>
+          <td>All cvars starting by sk_ control the HL monsters health and weapons damages for each of the three skill levels (See the "skill" cvar). Example : sk_12mm_bullet3 is how much damage the 12mm does with the skill level 3.</td>
+        </tr>
+
+        <tr>
+          <td>snd_noextraupdate</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>audio</td>
+          <td>If enabled, disallows "extra" sound updates which can occur during rendering or other potentially slow framerate situations.</td>
+        </tr>
+
+        <tr>
+          <td>spec_autodirector</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>It enables Auto Director spectator mode.Auto Director automatically moves the camera depending of where the player is looking at.This is working for Free Chase Cam, Locked Chase Cam & Chase Map Overview. (Same as spec_autodirector_internal for CS, CZ & DoD).</td>
+        </tr>
+
+        <tr>
+          <td>spec_autodirector_internal</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>It enables Auto Director spectator mode.Auto Director automatically moves the camera depending of where the player is looking at.This is working for Free Chase Cam, Locked Chase Cam & Chase Map Overview. spec_autodirector (cmd) toggles this CVar. This is only in CS, CZ & DoD.</td>
+        </tr>
+
+        <tr>
+          <td>spec_drawcone</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>Toggles 90-degree orange view cone on overview mode that show where you are looking in spec mode (Same as spec_drawcone_internal for CS, CZ & DoD).</td>
+        </tr>
+
+        <tr>
+          <td>spec_drawcone_internal</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>Toggles 90-degree orange view cone on overview mode that show where you are looking in spec mode. spec_drawcone (cmd) toggles this CVar. This is only in CS, CZ & DoD.</td>
+        </tr>
+
+        <tr>
+          <td>spec_drawnames</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>Toggles drawing names on overview mode (Same as spec_drawnames_internal for CS, CZ & DoD).</td>
+        </tr>
+
+        <tr>
+          <td>spec_drawnames_internal</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>Toggles drawing names on overview mode. spec_drawnames (cmd) toggles this CVar. This is only in CS, CZ & DoD.</td>
+        </tr>
+
+        <tr>
+          <td>spec_drawstatus</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>Toggles the game informations (Current map, game time, ...) which show at the top right of your screen in spectator mode (Same as spec_drawstatus_internal for CS, CZ & DoD).</td>
+        </tr>
+
+        <tr>
+          <td>spec_drawstatus_internal</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>spectator</td>
+          <td>Toggles the game informations (Current map, game time, ...) which show at the top right of your screen in spectator mode. This is only CS, CZ & DoD and it no longer works in those games since Steam.</td>
+        </tr>
+
+        <tr>
+          <td>spec_mode_internal</td>
+          <td>1</td>
+          <td>1</td>
+          <td>6</td>
+          <td>integer</td>
+          <td>spectator</td>
+          <td>Changing this during you play doesn't have any effect. You have to change it before you enter a server. It sets the first spectator mode you have when you enter in spectator mode (when you are dead or you are spectator). This is automatically changed when you change your spectator mode with the JUMP key, the spec menu or the spec_mode command.Values:1 : Locked Chase Cam2 : Free Chase Cam3 : Free Look4 : First Person5 : Free Map Overview6 : Chase Map OverviewThis is only in CS & CZ.</td>
+        </tr>
+
+        <tr>
+          <td>spec_pip</td>
+          <td>0</td>
+          <td>0</td>
+          <td>5</td>
+          <td>integer</td>
+          <td>spectator</td>
+          <td>Sets the picture-in-picture spectator mode.0 : Disabled1 : Player Chase Cam2 : First Person3 : Chase Map Overview (Zoomed out)4 : Chase Map Overview (Zoomed in)5 : Buggy mode (You see view cone sprites + player view sprites like on the map overview, but it works in third person etc...)</td>
+        </tr>
+
+        <tr>
+          <td>spec_scoreboard</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Toggles the scoreboard on/off. "togglescores" (command) toggles this CVar. This is a spec CVar but  you don't need to be spectator to use it. This is only in CS, CZ & DoD.</td>
+        </tr>
+
+        <tr>
+          <td>suitvolume</td>
+          <td>0.25</td>
+          <td>0.0</td>
+          <td>2.0</td>
+          <td>float</td>
+          <td>sound</td>
+          <td>Sets the volume of the HEV suit sounds in Half-Life.</td>
+        </tr>
+
+        <tr>
+          <td>sv_accelerate</td>
+          <td>5</td>
+          <td>5</td>
+          <td>5</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the acceleration speed. Is locked(in CS only), so it automaticly switches back to default (5). But in HL you can change it and the default value is 10.</td>
+        </tr>
+
+        <tr>
+          <td>sv_aim</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enables auto-aim (When your crosshair is near a enemy). Only works in Half-Life.</td>
+        </tr>
+
+        <tr>
+          <td>sv_airaccelerate</td>
+          <td>10</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It sets how fast you accelerate in air. Use 100 for surf_ maps.</td>
+        </tr>
+
+        <tr>
+          <td>sv_airmove</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td>server</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>sv_allowdownload</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enables the server from downloading any content to the client (maps, sprays and related)</td>
+        </tr>
+
+        <tr>
+          <td>sv_allowupload</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Allows clients sending custom sprays to the server.</td>
+        </tr>
+
+        <tr>
+          <td>sv_alltalk</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Allow dead players to communicate via voice chat to alive players. Also allow players to communicate with opposite team/spectators.</td>
+        </tr>
+
+        <tr>
+          <td>sv_bounce</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Controls collision response for flying projectiles when they hit slopes.</td>
+        </tr>
+
+        <tr>
+          <td>sv_cheats</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>cheat</td>
+          <td>This command enables the use of cheat cvars, like impulse 101 (16000 money) or impulse 102 (blood). All the cvars that are under category "cheat" in the cvarlist work only if this is enabled.</td>
+        </tr>
+
+        <tr>
+          <td>sv_clienttrace</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>sv_clienttrace sets the bounding box of the player for collisions (with world objects). This is not the same as setting the size of the hitbox (used for bullet hits). This can't be changed in CS, it's forced to 1. Value can differs with others HL Mods. (3.5 is used in DoD, etc...)</td>
+        </tr>
+
+        <tr>
+          <td>sv_clipmode</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td>server</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>sv_contact</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>It's used to set the server's owner e-mail.</td>
+        </tr>
+
+        <tr>
+          <td>sv_downloadurl</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Setting this CVAR will allow Clients to download Custom Content via HTTP instead ofsourcing the content from the game server, much faster.Set this to "" (null string) to convert back to normal downloads.</td>
+        </tr>
+
+        <tr>
+          <td>sv_enableoldqueries</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Setting "sv_enableoldqueries" to 1 allows old style (no challenge/response) queries to work (it allows you to use the old HL1 Engine Master Server Query Protocol). This should be left OFF now because web server browsers, etc... are using new server queries.</td>
+        </tr>
+
+        <tr>
+          <td>sv_filetransfercompression</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enables the server from compressing & sending compressed content to the client.</td>
+        </tr>
+
+        <tr>
+          <td>sv_filterban</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It sets packet filtering by IP mode. If disabled, everybody will be like IP-Banned, but their IP won't be added to banlist.</td>
+        </tr>
+
+        <tr>
+          <td>sv_friction</td>
+          <td>4</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It controls the ground friction. This is locked to 4 in CS and can't be changed.</td>
+        </tr>
+
+        <tr>
+          <td>sv_gravity</td>
+          <td>800</td>
+          <td></td>
+          <td>12000</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the gravity. Lower value is lower gravity. You keep being in the air with sv_gravity 0, and can't jump with sv_gravity 12000. With negatives values, same effect as sv_gravity 0, but it jumps really faster.</td>
+        </tr>
+
+        <tr>
+          <td>sv_instancedbaseline</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enables server to create and use "instanced" baselines (for things like grenades, etc., which don't have good baselines because they are not placed on the .map file).</td>
+        </tr>
+
+        <tr>
+          <td>sv_lan</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It enables LAN server mode (no heartbeat, no authentication, class C). Only people from your local network can join.</td>
+        </tr>
+
+        <tr>
+          <td>sv_lan_rate</td>
+          <td>20000</td>
+          <td>1001</td>
+          <td>20000</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It specifies the rate to use for all clients on a lan server (sv_lan 1), default is 20000. If sv_lan_rate < 1001, it will be ignored and "rate" (client side) will be used.</td>
+        </tr>
+
+        <tr>
+          <td>sv_logbans</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It turns the logging of player bans on and off. Default is 0 (off).</td>
+        </tr>
+
+        <tr>
+          <td>sv_logblocks</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It's part of the rate limiting code to Out-Of-Band queries (i.e. players, info). It logs which IP addresses have been blocked by this code. See also max_queries_* cvars.</td>
+        </tr>
+
+        <tr>
+          <td>sv_log_onefile</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It determines whether one log file is created (total) or one log file for each map change, which is how it currently is. The default is the current behavior (one for each map change). </td>
+        </tr>
+
+        <tr>
+          <td>sv_log_singleplayer</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>If enabled, log files will be created for single player games. Need logging to be enabled of course (log on).</td>
+        </tr>
+
+        <tr>
+          <td>sv_maxrate</td>
+          <td>0</td>
+          <td>1000</td>
+          <td>20000</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This set the maximum bytes per seconds the server can send to the client. 0 = unlimited. For internet games only (sv_lan 0), except if sv_lan_rate < 1001 on a LAN game (sv_lan 1).</td>
+        </tr>
+
+        <tr>
+          <td>sv_maxspeed</td>
+          <td>320</td>
+          <td>1</td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the maximum speed. In CS it doesn't change anything after 260, because of the weapon's speed(You go faster with scout, which is 260). For more info see the forum. </td>
+        </tr>
+
+        <tr>
+          <td>sv_maxunlag</td>
+          <td>0.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>Sets the maximum amount of seconds that the netcode compensates for someone's ping (sv_unlag need to be enabled). The netcode will compensate for 500ms by default.</td>
+        </tr>
+
+        <tr>
+          <td>sv_maxupdaterate</td>
+          <td>30</td>
+          <td>10</td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This is the maximum amount of updates per second the server is able to send to the client (See cl_updaterate).</td>
+        </tr>
+
+        <tr>
+          <td>sv_maxvelocity</td>
+          <td>2000</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It sets the maximum velocity of any moving object.</td>
+        </tr>
+
+        <tr>
+          <td>sv_minrate</td>
+          <td>0</td>
+          <td>1000</td>
+          <td>20000</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This set the minimum bytes per seconds the server can send to the client. 0 = unlimited. For internet games only (sv_lan 0), except if sv_lan_rate < 1001 on a LAN game (sv_lan 1).</td>
+        </tr>
+
+        <tr>
+          <td>sv_minupdaterate</td>
+          <td>10</td>
+          <td>10</td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This is the minimum amount of updates per second the server is able to send to the client (See cl_updaterate).</td>
+        </tr>
+
+        <tr>
+          <td>sv_newunit</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Used to clear out savegame data of previous levels to keep the savegame size as small as possible. This is used in Half-Life single player maps. No need to modify this CVar, the mappers have to set this in the worldspawn entity.</td>
+        </tr>
+
+        <tr>
+          <td>sv_password</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Sets the password for the server. People, who want to connect to the server, needs the password. </td>
+        </tr>
+
+        <tr>
+          <td>sv_proxies</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This is to allow HLTV proxy servers to connect to your server. It sets how much HLTV proxies will be able to connect to your server. HLTV proxies take up server slots, so make sure you take that into account before enabling this.</td>
+        </tr>
+
+        <tr>
+          <td>sv_rcon_banpenalty</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Number of minutes to ban users who fail rcon authentication. (0=permanent)</td>
+        </tr>
+
+        <tr>
+          <td>sv_rcon_maxfailures</td>
+          <td>10</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Max number of times a user can fail rcon authentication before being banned. It's similar to sv_rcon_minfailures except this setting doesn't rely on sv_rcon_minfailuretime.</td>
+        </tr>
+
+        <tr>
+          <td>sv_rcon_minfailures</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Number of times a user can fail rcon authentication in sv_rcon_minfailuretime's time before being banned.</td>
+        </tr>
+
+        <tr>
+          <td>sv_rcon_minfailuretime</td>
+          <td>30</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Amount of time (seconds) failed rcon attempts must occur within for the ban to be applied.</td>
+        </tr>
+
+        <tr>
+          <td>sv_region</td>
+          <td>-1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This is for the server browser filters, to set in which region the server should be shown.eastcoast - sv_region 0westcoast - sv_region 1south america - sv_region 2europe - sv_region 3asia - sv_region 4australia - sv_region 5middle east - sv_region 6africa - sv_region 7world - sv_region 255</td>
+        </tr>
+
+        <tr>
+          <td>sv_restart</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the amount of seconds before the server restarts the game. This will reset all frags, scores, weapons and money to default. Use this to coordinate clan matches. It's the same as sv_restartround. </td>
+        </tr>
+
+        <tr>
+          <td>sv_restartround</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the amount of seconds before the server restarts the game. This will reset all frags, scores, weapons and money to default. Use this to coordinate clan matches. It's the same as sv_restart. </td>
+        </tr>
+
+        <tr>
+          <td>sv_send_logos</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Enables the server from sending custom sprays to the clients. sv_send_logos 1 requires sv_allowdownload 1 to work.</td>
+        </tr>
+
+        <tr>
+          <td>sv_send_resources</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>This cvar controls whether resources are propagated to clients.</td>
+        </tr>
+
+        <tr>
+          <td>sv_skycolor_b</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It sets the sky color blue value.</td>
+        </tr>
+
+        <tr>
+          <td>sv_skycolor_g</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It sets the sky color green value.</td>
+        </tr>
+
+        <tr>
+          <td>sv_skycolor_r</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It sets the sky color red value.</td>
+        </tr>
+
+        <tr>
+          <td>sv_skyname</td>
+          <td>desert</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>It sets the name of the sky that should be used for the current map (players need to reconnect if you change it through this cvar to see the new sky). Mappers can set a specific sky for their map and it auto-set this cvar. If nothing is set, the sky will be the default one : desert</td>
+        </tr>
+
+        <tr>
+          <td>sv_skyvec_x</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>It sets the sky x-axis orientation.</td>
+        </tr>
+
+        <tr>
+          <td>sv_skyvec_y</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>It sets the sky y-axis orientation.</td>
+        </tr>
+
+        <tr>
+          <td>sv_skyvec_z</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>It sets the sky z-axis orientation.</td>
+        </tr>
+
+        <tr>
+          <td>sv_spectatormaxspeed</td>
+          <td>500</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the maximum speed a spectator can move.</td>
+        </tr>
+
+        <tr>
+          <td>sv_stats</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>Determines whether or not to collect server CPU usage stats. Use the command "stats" to view the CPU usage data collected by this.</td>
+        </tr>
+
+        <tr>
+          <td>sv_stepsize</td>
+          <td>18</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This is used to determine the maximum height of which you can walk up, without jumping. When set to a high number, you can walk over very tall objects. When set to a small number you can not walk up the littlest step.</td>
+        </tr>
+
+        <tr>
+          <td>sv_stopspeed</td>
+          <td>75</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>It sets the minimum stopping speed when on ground. In Half-Life and others mods, the default value is 100. But in CS, it's locked at 75, if you change it it will always comes back to 75.</td>
+        </tr>
+
+        <tr>
+          <td>sv_timeout</td>
+          <td>60</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Controls how long before the server disconnects a client that has stopped responding (He can just be AFK).</td>
+        </tr>
+
+        <tr>
+          <td>sv_unlag</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It allows the clients to use lag compensation. Leave this ON.</td>
+        </tr>
+
+        <tr>
+          <td>sv_unlagsamples</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the amount of packets that will be averaged to find the ping to compensate for (sv_unlag need to be enabled).Examples:sv_unlagsamples 1The server will calculate the ping from the lastsample. (default)sv_unlagsamples 2 The server will calculate the ping from theaverage of the last two samples.</td>
+        </tr>
+
+        <tr>
+          <td>sv_uploadmax</td>
+          <td>0.5</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>It limits the max size (in MB) a client can use for a custom resource (i.e spray decals) </td>
+        </tr>
+
+        <tr>
+          <td>sv_version</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Default is 1.1.2.0/2.0.0.0,47,3647.This is some server version infos. Those are the numbers which show up when you type "version".For example here:1.1.2.0/2.0.0.0 should be the game version/mod version. But, we all know CS is version 1.6, but it shows 1.1.2.5/2.0.0.0. On others mods it shows 1.1.2.5/2.0.0.0 too or 1.1.2.0/2.0.0.0, except CZ where it's 1.0.0.2/2.0.0.0.47 is the protocol version.3647 is the build version.</td>
+        </tr>
+
+        <tr>
+          <td>sv_visiblemaxplayers</td>
+          <td>-1</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This how much server slots are visible from the server browser. This is used to keep slots for admins. They have to use the connect command to join a hidden slot. But without a mod/plugin, anybody can join the hidden slot.</td>
+        </tr>
+
+        <tr>
+          <td>sv_voicecodec</td>
+          <td>voice_miles</td>
+          <td></td>
+          <td></td>
+          <td>string</td>
+          <td>server</td>
+          <td>Specifies which voice codec DLL to use in a game. Set to the name of the DLL without the extension.There are two codecs : voice_miles (default) and voice_speex. voice_speex gives the better voice quality. See also sv_voicequality.</td>
+        </tr>
+
+        <tr>
+          <td>sv_voiceenable</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>server</td>
+          <td>It enables the voice comms.</td>
+        </tr>
+
+        <tr>
+          <td>sv_voicequality</td>
+          <td>3</td>
+          <td>1</td>
+          <td>5</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>If you have voice comms enabled on your server, you can set the quality of voice from here. Keep in mind, the better the quality, the more bandwidth voice comms will require. It need the voice_speex codec to be enabled (see sv_voicecodec).sv_voicequality 1 : 2400bps, lowest qualitysv_voicequality 2 : 6000bpssv_voicequality 3 : 8000bpssv_voicequality 4 : 11200bpssv_voicequality 5 : 15200bps, highest quality</td>
+        </tr>
+
+        <tr>
+          <td>sv_wateraccelerate</td>
+          <td>10</td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td>server</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>sv_wateramp</td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>server</td>
+          <td>It amplifies the water's waves (in maps with water of course). This cvar auto-set gl_wateramp (it's the same but client-side) on all clients.</td>
+        </tr>
+
+        <tr>
+          <td>sv_waterfriction</td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td> </td>
+          <td>server</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>sv_zmax</td>
+          <td>4096</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>server</td>
+          <td>Sets the size of the Z-buffer. This is the max viewable distance. Mappers can set the value they want in their map (with the worldspawn entity) and it automatically changes this cvar on map load. It changes the value of gl_zmax of any client who connects to the server. VALVe added this cvar because with gl_zmax 0 you could see through walls (in D3D renderer), so client is forced to use the server's value and can't modify gl_zmax. This can only be used in multi player on Dedicated servers (it's only working in single player for Listen servers).</td>
+        </tr>
+
+        <tr>
+          <td>sys_ticrate</td>
+          <td>100</td>
+          <td>0</td>
+          <td>1000</td>
+          <td>integer</td>
+          <td>server</td>
+          <td>This command sets the maximum frames per second the server can calculate.</td>
+        </tr>
+
+        <tr>
+          <td>s_a3d</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>sound</td>
+          <td>Enable A3D sound technology. Your sound card need to support it.</td>
+        </tr>
+
+        <tr>
+          <td>s_eax</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>sound</td>
+          <td>Enables EAX sound technology. Your sound card need to support it.</td>
+        </tr>
+
+        <tr>
+          <td>s_show</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Shows on screen what sounds are played.</td>
+        </tr>
+
+        <tr>
+          <td>texgamma</td>
+          <td>2.0</td>
+          <td>0</td>
+          <td></td>
+          <td>float</td>
+          <td>video</td>
+          <td>Sets the texture gamma amount.</td>
+        </tr>
+
+        <tr>
+          <td>tfc_newmodels</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>This enables the new player models in TFC.</td>
+        </tr>
+
+        <tr>
+          <td>topcolor</td>
+          <td>0</td>
+          <td>0</td>
+          <td>255</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>Sets the top color of your model in Half-Life that others see.</td>
+        </tr>
+
+        <tr>
+          <td>traceralpha</td>
+          <td>0.5</td>
+          <td>0.0</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>video</td>
+          <td>This sets the transparency of the tracers. Tracers only work in HL with the 9mm weapon and also in some others mods. There are no tracers in CS.</td>
+        </tr>
+
+        <tr>
+          <td>tracerblue</td>
+          <td>0.4</td>
+          <td>0.0</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>video</td>
+          <td>This sets the blue value of the tracers. Tracers only work in HL with the 9mm weapon and also in some others mods. There are no tracers in CS.</td>
+        </tr>
+
+        <tr>
+          <td>tracergreen</td>
+          <td>0.8</td>
+          <td>0.0</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>video</td>
+          <td>This sets the green value of the tracers. Tracers only work in HL with the 9mm weapon and also in some others mods. There are no tracers in CS.</td>
+        </tr>
+
+        <tr>
+          <td>tracerlength</td>
+          <td>0.8</td>
+          <td>0.0</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>video</td>
+          <td>This sets how long are the tracers. Tracers only work in HL with the 9mm weapon and also in some others mods. There are no tracers in CS.</td>
+        </tr>
+
+        <tr>
+          <td>traceroffset</td>
+          <td>30</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This sets how far of your weapon the tracers will appear. Tracers only work in HL with the 9mm weapon and also in some others mods. There are no tracers in CS.</td>
+        </tr>
+
+        <tr>
+          <td>tracerred</td>
+          <td>0.8</td>
+          <td>0.0</td>
+          <td>1.0</td>
+          <td>float</td>
+          <td>video</td>
+          <td>This sets the red value of the tracers. Tracers only work in HL with the 9mm weapon and also in some others mods. There are no tracers in CS.</td>
+        </tr>
+
+        <tr>
+          <td>tracerspeed</td>
+          <td>6000</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>video</td>
+          <td>This sets the speed of the tracers. Tracers only work in HL with the 9mm weapon and also in some others mods. There are no tracers in CS.</td>
+        </tr>
+
+        <tr>
+          <td>vgui_emulatemouse</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>This forces mouse cursor emulation (this may be useful for older graphics cards which display a flickering mouse cursor or no mouse cursor at all).</td>
+        </tr>
+
+        <tr>
+          <td>vid_d3d</td>
+          <td>0/1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>This was like to switch between OpenGL and D3D modes, but since it need game restart, this doesn't work. In OpenGL this is set to 0, and in D3D to 1. It's automatically reset to the value of the video mode you are when you join a server.</td>
+        </tr>
+
+        <tr>
+          <td>viewsize</td>
+          <td>120</td>
+          <td>30</td>
+          <td>120</td>
+          <td>integer</td>
+          <td>video</td>
+          <td>It sets the size of your in-game screen in software mode.</td>
+        </tr>
+
+        <tr>
+          <td>violence_ablood</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Toggles alien's blood.</td>
+        </tr>
+
+        <tr>
+          <td>violence_agibs</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Toggles alien's gibs.</td>
+        </tr>
+
+        <tr>
+          <td>violence_hblood</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Toggles human's blood.</td>
+        </tr>
+
+        <tr>
+          <td>violence_hgibs</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>video</td>
+          <td>Toggles human's gibs.</td>
+        </tr>
+
+        <tr>
+          <td>voice_enable</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>voice</td>
+          <td>Enables voice communication through microphone.</td>
+        </tr>
+
+        <tr>
+          <td>voice_fadeouttime</td>
+          <td>0.1</td>
+          <td>0</td>
+          <td></td>
+          <td>float</td>
+          <td>voice</td>
+          <td>The amount in seconds a player's voice fades out at the end of saying something on the microphone. This is so the transition to when they stop talking sounds smoother. Put this at 0 if you want to play sounds using HLSS/HLDJ, since this makes the music fade and sound muffled after a song has been playing continuously. </td>
+        </tr>
+
+        <tr>
+          <td>voice_forcemicrecord</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>voice</td>
+          <td>It sets the recording device to Wave Out Mix, instead of Line 1/Mic.The HL engine tries to make sure the mixer control settings are set properly when the game runs, but not all soundcards work the same way, especially very high-end sound cards like Audigy 2ZS pro cards. If you are having problems with your mic not working after you start a game, try setting this to 0. </td>
+        </tr>
+
+        <tr>
+          <td>voice_inputfromfile</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>voice</td>
+          <td>When set to one and you use +voicerecord, this will not record your voice but rather play a WAV file from your cstrike/voice_input.wav.</td>
+        </tr>
+
+        <tr>
+          <td>voice_loopback</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>voice</td>
+          <td>When enables it and talk on your microphone, this loops back your own voice so you can hear yourself talk.</td>
+        </tr>
+
+        <tr>
+          <td>voice_recordtofile</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>audio</td>
+          <td>Records your voice to a file when set to 1 and you talk on your microphone. The two files are voice_decompressed.wav (contains no actual sound) and voice_micdata.wav (you speaking).</td>
+        </tr>
+
+        <tr>
+          <td>voice_scale</td>
+          <td>1</td>
+          <td>0</td>
+          <td></td>
+          <td>float</td>
+          <td>voice</td>
+          <td>This set how loud are the voices of the others players when they talk (also your voice if you use voice_loopback).</td>
+        </tr>
+
+        <tr>
+          <td>volume</td>
+          <td>0.2</td>
+          <td>0</td>
+          <td></td>
+          <td>float</td>
+          <td>audio</td>
+          <td>Sets the sound's volume level.</td>
+        </tr>
+
+        <tr>
+          <td>v_centermove</td>
+          <td>0.150</td>
+          <td>0</td>
+          <td></td>
+          <td>float</td>
+          <td>mouse</td>
+          <td>Sets the distance to walk before your view centers when -mlook and lookspring 1 are active.</td>
+        </tr>
+
+        <tr>
+          <td>v_centerspeed</td>
+          <td>500</td>
+          <td></td>
+          <td></td>
+          <td>integer</td>
+          <td>mouse</td>
+          <td>It defines how fast your crosshair is centered at the middle of your screen when having mouse look disabled(-mlook) and lookspring 1.</td>
+        </tr>
+
+        <tr>
+          <td>v_dark</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Setting this to 1 causes the level to fade in from black upon initial load.</td>
+        </tr>
+
+        <tr>
+          <td>waterroom_type</td>
+          <td>14</td>
+          <td>0</td>
+          <td>28</td>
+          <td>integer</td>
+          <td>audio</td>
+          <td>Sets the room_type under water, for type descriptions, see room_type. Set to 0 for clean sound under water.</td>
+        </tr>
+
+        <tr>
+          <td>zoom_sensitivity_ratio</td>
+          <td>1.2</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>mouse</td>
+          <td>Defines the sensitivity ratio when zooming.</td>
+        </tr>
+
+        <tr>
+          <td>_cl_autowepswitch</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>boolean</td>
+          <td>interface</td>
+          <td>Automatically switch to most powerful gun. (When set to 1, when you buy a new gun or run over a gun to pick it up this will automatically switch to that gun) If 0, then your current choice of weaponry will stay selected.</td>
+        </tr>
+
+        <tr>
+          <td>_snd_mixahead</td>
+          <td>0.1</td>
+          <td></td>
+          <td></td>
+          <td>float</td>
+          <td>audio</td>
+          <td>Sets the time (in seconds) to mix the sound that much ahead. Should only be used with severe performance problems. If your sound is skipping or cracking, you may need to change this.</td>
+        </tr>
       </tbody>
     </table>
   </body>
