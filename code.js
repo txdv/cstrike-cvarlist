@@ -20,10 +20,9 @@ $.ajax({
       );
     }
     $('#info').text("successfully loaded");
-    $('#data').tablesorter();
   }
 })
-.error(function (data) {
+.fail(function (data) {
   $('#info').text("failed to load");
 })
 
